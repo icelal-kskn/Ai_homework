@@ -110,28 +110,34 @@ class NQueens(SearchProblem):
 def test_algorithm(algorithm, N, initial_state):
     problem = NQueens(N)
     viewer = BaseViewer()  
+    with open("PA2/results.txt","a") as file:
+        
+        file.write(f"\nTesting {algorithm.__name__} with N={N} and initial state: {initial_state}"+"\n")
+        file.write(str("-"*20)+"\n")
+        if "depth_limit" not in inspect.signature(algorithm).parameters:
+            result = algorithm(problem, viewer=viewer)
+            file.write("Algorithm:" + str(algorithm.__name__)+"\n")
+            file.write("Resulting State:" + str(*[result.state if result.state != None else "Not Found"])+"\n")
+            file.write("Resulting Path:" + str(result.path())+"\n")
+            file.write("Cost of Solution:" + str(result.cost)+"\n")
+            file.write("Viewer Statistics:" + str(viewer.stats)+"\n")
+        else:
+            result = algorithm(problem,1000, viewer=viewer)
+            file.write("Algorithm:" + str(algorithm.__name__)+"\n")
+            file.write("Resulting State:" + str(*[result.state if result.state != None else "Not Found"]) + "\n")
+            file.write("Resulting Path:" + str(result.path())+"\n")
+            file.write("Cost of Solution:" + str(result.cost)+"\n")
+            file.write("Viewer Statistics:" + str(viewer.stats)+"\n")
+            file.write(str("-"*20)+"\n")
 
-    print(f"\nTesting {algorithm.__name__} with N={N} and initial state: {initial_state}")
-    print("-"*20)
-    if "depth_limit" not in inspect.signature(algorithm).parameters:
-        result = algorithm(problem, viewer=viewer)
-        print("Algorithm:", algorithm.__name__)
-        print("Resulting State:", *[result.state if result.state != None else "Not Found"])
-        print("Resulting Path:", result.path())
-        print("Cost of Solution:", result.cost)
-        print("Viewer Statistics:", viewer.stats)
-    else:
-        result = algorithm(problem,1000, viewer=viewer)
-        print("Algorithm:", algorithm.__name__)
-        print("Resulting State:", *[result.state if result.state != None else "Not Found"])
-        print("Resulting Path:", result.path())
-        print("Cost of Solution:", result.cost)
-        print("Viewer Statistics:", viewer.stats)
-        print("-"*20)
 
-search_functions = [astar, breadth_first, depth_first, limited_depth_first, iterative_limited_depth_first, uniform_cost, greedy]
-initial_states = ["2323", "4311", "3442", "12345", "13154", "536142", "532512"]
+if __name__ == "__main__":
+    search_functions = [astar, breadth_first, depth_first, limited_depth_first, iterative_limited_depth_first, uniform_cost, greedy]
+    initial_states = ["2323", "4311", "3442", "12345", "13154", "536142", "532512"]
 
-for func in search_functions:
-    for state in initial_states:
-        test_algorithm(func, len(state),state )
+    with open("PA2/results.txt","w"):
+        pass
+
+    for func in search_functions:
+        for state in initial_states:
+            test_algorithm(func, len(state),state )
