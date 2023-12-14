@@ -106,4 +106,7 @@ for initial_state in initial_states:
     N = len(initial_state)
     # test_algorithm(astar, N, initial_state)
     test_algorithm(breadth_first, N, initial_state)
-    # test_algorithm(depth_first, N, initial_state)
+
+for initial_state in initial_states:
+    N = len(initial_state)
+    test_algorithm(depth_first, N, initial_state)
