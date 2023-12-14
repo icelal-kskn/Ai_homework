@@ -114,13 +114,13 @@ def test_algorithm(algorithm, N, initial_state):
     if "depth_limit" not in inspect.signature(algorithm).parameters:
         result = algorithm(problem, viewer=viewer)
         print("Algorithm:", algorithm.__name__)
-        print("Resulting State:", result.state)
+        print("Resulting State:", *[result.state if result.state != None else "Not Found"])
         print("Resulting Path:", result.path())
         print("Cost of Solution:", result.cost)
     else:
-        result = algorithm(problem,10000, viewer=viewer)
+        result = algorithm(problem,1000, viewer=viewer)
         print("Algorithm:", algorithm.__name__)
-        print("Resulting State:", result.state)
+        print("Resulting State:", *[result.state if result.state != None else "Not Found"])
         print("Resulting Path:", result.path())
         print("Cost of Solution:", result.cost)
 
