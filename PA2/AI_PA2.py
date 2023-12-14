@@ -17,7 +17,8 @@ class NQueens(SearchProblem):
     def _set_state(self):
         return self.generate_random_state()
     
-    ''' State is enabled please close the test and open the following codes using Ctrl+K+C or Ctrl+Ö '''
+    #TODO  SetState is disabled please close the test and open the following codes using Ctrl+K+C or Ctrl+Ö 
+        
         # choice = input("Manually enter state (M) or generate a random state (R)? ").strip().lower()
         # if choice.upper() == 'M':
         #     state = input(f"Enter a state of length {self.N}: ").strip()
