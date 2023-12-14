@@ -112,6 +112,7 @@ def test_algorithm(algorithm, N, initial_state):
     viewer = BaseViewer()  
 
     print(f"\nTesting {algorithm.__name__} with N={N} and initial state: {initial_state}")
+    print("-"*20)
     if "depth_limit" not in inspect.signature(algorithm).parameters:
         result = algorithm(problem, viewer=viewer)
         print("Algorithm:", algorithm.__name__)
@@ -124,10 +125,11 @@ def test_algorithm(algorithm, N, initial_state):
         print("Resulting State:", *[result.state if result.state != None else "Not Found"])
         print("Resulting Path:", result.path())
         print("Cost of Solution:", result.cost)
+        print("-"*20)
 
 search_functions = [astar, breadth_first, depth_first, limited_depth_first, iterative_limited_depth_first, uniform_cost, greedy]
 initial_states = ["2323", "4311", "3442", "12345", "13154", "536142", "532512"]
 
 for func in search_functions:
     for state in initial_states:
-        print(test_algorithm(func, len(state),state ))
+        test_algorithm(func, len(state),state )
