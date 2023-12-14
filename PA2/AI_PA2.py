@@ -2,6 +2,7 @@ import random
 from simpleai.search import SearchProblem, astar, breadth_first, depth_first, limited_depth_first, iterative_limited_depth_first, uniform_cost, greedy
 from simpleai.search.viewers import BaseViewer
 import inspect
+from math import sqrt
 
 #class definition for NQueens
 class NQueens(SearchProblem):
@@ -99,7 +100,7 @@ class NQueens(SearchProblem):
 
     def heuristic(self, state):
         # Returns the estimated solution cost from the given state to the goal state
-        return self._count_attacking_pairs(state)
+        return int(sqrt(self._count_attacking_pairs(state)))
 
     def cost(self, state1, action, state2):
         return 1
