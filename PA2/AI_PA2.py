@@ -132,11 +132,8 @@ def test_algorithm(algorithm, N, initial_state):
 
 
 if __name__ == "__main__":
-    search_functions = [astar, breadth_first, depth_first, limited_depth_first, iterative_limited_depth_first, uniform_cost, greedy]
+    search_functions = [iterative_limited_depth_first, uniform_cost, greedy]
     initial_states = ["2323", "4311", "3442", "12345", "13154", "536142", "532512"]
-
-    with open("PA2/results.txt","w"):
-        pass
 
     for func in search_functions:
         for state in initial_states:
