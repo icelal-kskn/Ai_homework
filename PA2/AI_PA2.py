@@ -1,7 +1,7 @@
 import random
-from simpleai.search import SearchProblem, astar, breadth_first, depth_first
+from simpleai.search import SearchProblem, astar, breadth_first, depth_first, limited_depth_first, iterative_limited_depth_first, uniform_cost, greedy
 from simpleai.search.viewers import BaseViewer
-
+import inspect
 
 #class definition for NQueens
 class NQueens(SearchProblem):
@@ -10,6 +10,7 @@ class NQueens(SearchProblem):
         self.N=N
         self.state=self._set_state()
         super().__init__(initial_state=self.state)
+        self.visited_states = set([])
 
     def __str__(self):
         return f"State: {self.state}"
@@ -59,17 +60,38 @@ class NQueens(SearchProblem):
     def actions(self, state):
         # Returns a list of possible actions from the current state
         possible_actions = []
-        for i in range(self.N):
-            for j in range(1, self.N + 1):
-                if str(j) != state[i]:
-                    possible_actions.append((i, str(j)))
+        for i,letter in enumerate(state):
+            if ord(letter)> ord('1') and ord(letter)<ord(str(self.N)):
+                upper_letter = chr(ord(letter) - 1)
+                lower_letter = chr(ord(letter) + 1)
+                upper_state = state[:i] + upper_letter + state[i+1:]
+                lower_state = state[:i] + lower_letter + state[i+1:]
+                if lower_state not in self.visited_states:
+                    possible_actions.append((i,lower_letter))
+                if upper_state not in self.visited_states:
+                    possible_actions.append((i,upper_letter))
+            elif letter == '1':
+                lower_letter = chr(ord(letter) + 1)
+                lower_state = state[:i] + lower_letter + state[i+1:]
+                if lower_state not in self.visited_states:
+                    possible_actions.append((i,lower_letter))
+            elif letter == str(self.N):
+                upper_letter = chr(ord(letter) - 1)
+                upper_state = state[:i] + upper_letter + state[i+1:]
+                if upper_state not in self.visited_states:
+                    possible_actions.append((i,upper_letter))
         return possible_actions
 
     def result(self, state, action):
-        column, new_row = action
-        new_state = list(state)
-        new_state[column] = new_row
-        return ''.join(new_state)
+        if action:
+            column, new_row = action
+            new_state = list(state)
+            new_state[column] = new_row
+            final_output = ''.join(new_state)
+            self.visited_states.add(final_output)
+            return final_output
+        else:
+            return state
 
     def is_goal(self, state):
         # Returns whether the state given as a parameter is a goal state
@@ -88,25 +110,23 @@ def test_algorithm(algorithm, N, initial_state):
     problem = NQueens(N)
     viewer = BaseViewer()  
 
-    print(f"\nTesting {algorithm} with N={N} and initial state: {initial_state}")
-    if algorithm == astar or algorithm == breadth_first or algorithm == depth_first:
+    print(f"\nTesting {algorithm.__name__} with N={N} and initial state: {initial_state}")
+    if "depth_limit" not in inspect.signature(algorithm).parameters:
         result = algorithm(problem, viewer=viewer)
-        print("Algorithm:", algorithm)
+        print("Algorithm:", algorithm.__name__)
         print("Resulting State:", result.state)
         print("Resulting Path:", result.path())
         print("Cost of Solution:", result.cost)
-        print("Viewer Statistics:", viewer.stats)
     else:
-        print("Invalid algorithm choice.")
+        result = algorithm(problem,10000, viewer=viewer)
+        print("Algorithm:", algorithm.__name__)
+        print("Resulting State:", result.state)
+        print("Resulting Path:", result.path())
+        print("Cost of Solution:", result.cost)
 
+search_functions = [astar, breadth_first, depth_first, limited_depth_first, iterative_limited_depth_first, uniform_cost, greedy]
 initial_states = ["2323", "4311", "3442", "12345", "13154", "536142", "532512"]
 
-# Test each algorithm for N=4 to 6
-for initial_state in initial_states:
-    N = len(initial_state)
-    # test_algorithm(astar, N, initial_state)
-    test_algorithm(breadth_first, N, initial_state)
-
-for initial_state in initial_states:
-    N = len(initial_state)
-    test_algorithm(depth_first, N, initial_state)
+for func in search_functions:
+    for state in initial_states:
+        print(test_algorithm(func, len(state),state ))
