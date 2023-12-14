@@ -119,12 +119,14 @@ def test_algorithm(algorithm, N, initial_state):
         print("Resulting State:", *[result.state if result.state != None else "Not Found"])
         print("Resulting Path:", result.path())
         print("Cost of Solution:", result.cost)
+        print("Viewer Statistics:", viewer.stats)
     else:
         result = algorithm(problem,1000, viewer=viewer)
         print("Algorithm:", algorithm.__name__)
         print("Resulting State:", *[result.state if result.state != None else "Not Found"])
         print("Resulting Path:", result.path())
         print("Cost of Solution:", result.cost)
+        print("Viewer Statistics:", viewer.stats)
         print("-"*20)
 
 search_functions = [astar, breadth_first, depth_first, limited_depth_first, iterative_limited_depth_first, uniform_cost, greedy]
