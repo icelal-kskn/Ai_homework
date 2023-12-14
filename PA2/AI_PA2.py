@@ -15,19 +15,20 @@ class NQueens(SearchProblem):
         return f"State: {self.state}"
       
     def _set_state(self):
-        choice = input("Manually enter state (M) or generate a random state (R)? ").strip().lower()
-        if choice.upper() == 'M':
-            state = input(f"Enter a state of length {self.N}: ").strip()
-            if self._is_valid(state):
-                return state
-            else:
-                print("Invalid state. Please try again.")
-                return self._set_state()
-        elif choice.upper() == 'R':
-            return self.generate_random_state()
-        else:
-            print("Invalid choice. Please enter 'M' or 'R'.")
-            return self._set_state()   
+        return self.generate_random_state()
+        # choice = input("Manually enter state (M) or generate a random state (R)? ").strip().lower()
+        # if choice.upper() == 'M':
+        #     state = input(f"Enter a state of length {self.N}: ").strip()
+        #     if self._is_valid(state):
+        #         return state
+        #     else:
+        #         print("Invalid state. Please try again.")
+        #         return self._set_state()
+        # elif choice.upper() == 'R':
+        #     return self.generate_random_state()
+        # else:
+        #     print("Invalid choice. Please enter 'M' or 'R'.")
+        #     return self._set_state()   
         
     def generate_random_state(self):
         while True:
@@ -98,12 +99,11 @@ def test_algorithm(algorithm, N, initial_state):
     else:
         print("Invalid algorithm choice.")
 
-# Sample initial states for testing
-initial_states = ["4311", "3442", "12345", "13154", "536142", "532512"]
+initial_states = ["2323", "4311", "3442", "12345", "13154", "536142", "532512"]
 
 # Test each algorithm for N=4 to 6
-for N in range(4, 7):
-    for initial_state in initial_states:
-        test_algorithm(astar, N, initial_state)
-        test_algorithm(breadth_first, N, initial_state)
-        test_algorithm(depth_first, N, initial_state)
+for initial_state in initial_states:
+    N = len(initial_state)
+    # test_algorithm(astar, N, initial_state)
+    test_algorithm(breadth_first, N, initial_state)
+    # test_algorithm(depth_first, N, initial_state)
