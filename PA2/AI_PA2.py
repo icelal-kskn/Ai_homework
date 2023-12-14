@@ -16,6 +16,8 @@ class NQueens(SearchProblem):
       
     def _set_state(self):
         return self.generate_random_state()
+    
+    ''' State is enabled please close the test and open the following codes using Ctrl+K+C or Ctrl+Ö '''
         # choice = input("Manually enter state (M) or generate a random state (R)? ").strip().lower()
         # if choice.upper() == 'M':
         #     state = input(f"Enter a state of length {self.N}: ").strip()
@@ -99,12 +101,16 @@ def test_algorithm(algorithm, N, initial_state):
     else:
         print("Invalid algorithm choice.")
 
+
 initial_states = ["2323", "4311", "3442", "12345", "13154", "536142", "532512"]
 
-# Test each algorithm for N=4 to 6
+# Test each algorithm for initial states
 for initial_state in initial_states:
     N = len(initial_state)
-    # test_algorithm(astar, N, initial_state)
+    test_algorithm(astar, N, initial_state)
+
+for initial_state in initial_states:
+    N = len(initial_state)
     test_algorithm(breadth_first, N, initial_state)
 
 for initial_state in initial_states:
