@@ -1,0 +1,388 @@
+Goal Node
+
+            Function: <function breadth_first at 0x000002CC49CE4360>
+            Initial state: [2, 3, 2, 3]
+            Fİnal State: (2, 4, 1, 3)
+            Path: [(None, (2, 3, 2, 3)), ('Queen collum 2, row 3 is moved to row 4 ', (2, 4, 2, 3)), ('Queen collum 3, row 2 is moved to row 1 ', (2, 4, 1, 3))]
+            Cost: 2
+            Stats: {'max_fringe_size': 117, 'visited_nodes': 53, 'iterations': 53}
+            Execution Time: 0.011s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function depth_first at 0x000002CC49CE4540>
+            Initial state: [2, 3, 2, 3]
+            Fİnal State: (3, 1, 4, 2)
+            Path: [(None, (2, 3, 2, 3)), ('Queen collum 4, row 3 is moved to row 4 ', (2, 3, 2, 4)), ('Queen collum 3, row 2 is moved to row 4 ', (2, 3, 4, 4)), ('Queen collum 4, row 4 is moved to row 2 ', (2, 3, 4, 2)), ('Queen collum 3, row 4 is moved to row 3 ', (2, 3, 3, 2)), ('Queen collum 4, row 2 is moved to row 1 ', (2, 3, 3, 1)), ('Queen collum 3, row 3 is moved to row 1 ', (2, 3, 1, 1)), ('Queen collum 2, row 3 is moved to row 4 ', (2, 4, 1, 1)), ('Queen collum 4, row 1 is moved to row 4 ', (2, 4, 1, 4)), ('Queen collum 3, row 1 is moved to row 3 ', (2, 4, 3, 4)), ('Queen collum 4, row 4 is moved to row 3 ', (2, 4, 3, 
+3)), ('Queen collum 3, row 3 is moved to row 4 ', (2, 4, 4, 3)), ('Queen collum 2, row 4 is moved to row 2 ', (2, 2, 4, 3)), ('Queen collum 4, row 3 is moved to row 1 ', (2, 2, 4, 1)), ('Queen collum 3, row 4 is 
+moved to row 2 ', (2, 2, 2, 1)), ('Queen collum 4, row 1 is moved to row 2 ', (2, 2, 2, 2)), ('Queen collum 3, row 2 is moved to row 1 ', (2, 2, 1, 2)), ('Queen collum 2, row 2 is moved to row 1 ', (2, 1, 1, 2)), ('Queen collum 4, row 2 is moved to row 3 ', (2, 1, 1, 3)), ('Queen collum 1, row 2 is moved to row 4 ', (4, 1, 1, 3)), ('Queen collum 4, row 3 is moved to row 4 ', (4, 1, 1, 4)), ('Queen collum 3, row 1 is moved to row 4 ', (4, 1, 4, 4)), ('Queen collum 4, row 4 is moved to row 2 ', (4, 1, 4, 2)), ('Queen collum 1, row 4 is moved to row 3 ', (3, 1, 4, 2))]
+            Cost: 23
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 189, 'iterations': 189}
+            Execution Time: 0.033s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function astar at 0x000002CC49CE5A80>
+            Initial state: [2, 3, 2, 3]
+            Fİnal State: (2, 4, 1, 3)
+            Path: [(None, (2, 3, 2, 3)), ('Queen collum 2, row 3 is moved to row 4 ', (2, 4, 2, 3)), ('Queen collum 3, row 2 is moved to row 1 ', (2, 4, 1, 3))]
+            Cost: 2
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 192, 'iterations': 192}
+            Execution Time: 0.001s
+
+-----------------------------------------------
+
+            Function: <function genetic at 0x000002CC49CE63E0>
+            Initial state: [2, 3, 2, 3]
+            Fİnal State: [3, 1, 4, 4]
+            Path: [('crossover+mutation', [3, 1, 4, 4])]
+            Cost: 0
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 192, 'iterations': 192}
+            Execution Time: 0.002s
+
+-----------------------------------------------
+
+            Function: <function hill_climbing at 0x000002CC49CE5EE0>
+            Initial state: [2, 3, 2, 3]
+            Fİnal State: (2, 4, 1, 3)
+            Path: [('Queen collum 2, row 3 is moved to row 4 ', (2, 4, 1, 3))]
+            Cost: 2
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 192, 'iterations': 195}
+            Execution Time: 0.000s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function greedy at 0x000002CC49CE59E0>
+            Initial state: [2, 3, 2, 3]
+            Fİnal State: (2, 4, 1, 3)
+            Path: [(None, (2, 3, 2, 3)), ('Queen collum 2, row 3 is moved to row 4 ', (2, 4, 2, 3)), ('Queen collum 3, row 2 is moved to row 1 ', (2, 4, 1, 3))]
+            Cost: 2
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 195, 'iterations': 198}
+            Execution Time: 0.000s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function breadth_first at 0x000002CC49CE4360>
+            Initial state: [4, 3, 1, 1]
+            Fİnal State: (2, 4, 1, 3)
+            Path: [(None, (4, 3, 1, 1)), ('Queen collum 1, row 4 is moved to row 2 ', (2, 3, 1, 1)), ('Queen collum 2, row 3 is moved to row 4 ', (2, 4, 1, 1)), ('Queen collum 4, row 1 is moved to row 3 ', (2, 4, 1, 3))]
+            Cost: 3
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 306, 'iterations': 309}
+            Execution Time: 0.021s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function depth_first at 0x000002CC49CE4540>
+            Initial state: [4, 3, 1, 1]
+            Fİnal State: (2, 4, 1, 3)
+            Path: [(None, (4, 3, 1, 1)), ('Queen collum 4, row 1 is moved to row 4 ', (4, 3, 1, 4)), ('Queen collum 3, row 1 is moved to row 4 ', (4, 3, 4, 4)), ('Queen collum 4, row 4 is moved to row 3 ', (4, 3, 4, 3)), ('Queen collum 3, row 4 is moved to row 3 ', (4, 3, 3, 3)), ('Queen collum 4, row 3 is moved to row 2 ', (4, 3, 3, 2)), ('Queen collum 3, row 3 is moved to row 2 ', (4, 3, 2, 2)), ('Queen collum 2, row 3 is moved to row 4 ', (4, 4, 2, 2)), ('Queen collum 4, row 2 is moved to row 4 ', (4, 4, 2, 4)), ('Queen collum 3, row 2 is moved to row 3 ', (4, 4, 3, 4)), ('Queen collum 4, row 4 is moved to row 1 ', (4, 4, 3, 
+1)), ('Queen collum 3, row 3 is moved to row 4 ', (4, 4, 4, 1)), ('Queen collum 2, row 4 is moved to row 2 ', (4, 2, 4, 1)), ('Queen collum 4, row 1 is moved to row 2 ', (4, 2, 4, 2)), ('Queen collum 3, row 4 is 
+moved to row 1 ', (4, 2, 1, 2)), ('Queen collum 4, row 2 is moved to row 3 ', (4, 2, 1, 3)), ('Queen collum 3, row 1 is moved to row 2 ', (4, 2, 2, 3)), ('Queen collum 2, row 2 is moved to row 1 ', (4, 1, 2, 3)), ('Queen collum 4, row 3 is moved to row 1 ', (4, 1, 2, 1)), ('Queen collum 1, row 4 is moved to row 3 ', (3, 1, 2, 1)), ('Queen collum 4, row 1 is moved to row 4 ', (3, 1, 2, 4)), ('Queen collum 3, row 2 is moved to row 4 ', (3, 1, 4, 4)), ('Queen collum 4, row 4 is moved to row 3 ', (3, 1, 4, 3)), ('Queen collum 3, row 4 is moved to row 3 ', (3, 1, 3, 3)), ('Queen collum 4, row 3 is moved to row 2 ', (3, 1, 3, 2)), ('Queen collum 3, row 3 is moved to row 1 ', (3, 1, 1, 2)), ('Queen collum 2, row 1 is moved to row 4 ', (3, 4, 1, 2)), ('Queen collum 4, row 2 is moved to row 4 ', (3, 4, 1, 4)), ('Queen collum 2, row 4 is moved to row 2 ', (3, 2, 1, 4)), ('Queen collum 4, row 4 is moved to row 1 ', (3, 2, 1, 1)), ('Queen collum 3, row 1 is moved to row 3 ', (3, 2, 3, 1)), ('Queen collum 2, row 2 is moved to row 3 ', (3, 3, 3, 1)), ('Queen collum 4, row 1 is moved to row 4 ', (3, 3, 3, 4)), ('Queen collum 1, row 3 is moved to row 2 ', (2, 3, 3, 4)), ('Queen collum 3, row 3 is moved to row 2 ', (2, 3, 2, 4)), ('Queen collum 4, row 4 is moved to row 3 ', (2, 3, 2, 3)), ('Queen collum 3, row 2 is moved to row 1 ', (2, 3, 1, 3)), ('Queen collum 2, row 3 is moved to row 4 ', (2, 4, 1, 3))]
+            Cost: 37
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 398, 'iterations': 401}
+            Execution Time: 0.023s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function astar at 0x000002CC49CE5A80>
+            Initial state: [4, 3, 1, 1]
+            Fİnal State: (2, 4, 1, 3)
+            Path: [(None, (4, 3, 1, 1)), ('Queen collum 4, row 1 is moved to row 3 ', (4, 3, 1, 3)), ('Queen collum 2, row 3 is moved to row 4 ', (4, 4, 1, 3)), ('Queen collum 1, row 4 is moved to row 2 ', (2, 4, 1, 3))]
+            Cost: 3
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 406, 'iterations': 409}
+            Execution Time: 0.001s
+
+-----------------------------------------------
+
+            Function: <function genetic at 0x000002CC49CE63E0>
+            Initial state: [4, 3, 1, 1]
+            Fİnal State: [2, 4, 1, 1]
+            Path: [('crossover', [2, 4, 1, 1])]
+            Cost: 0
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 406, 'iterations': 409}
+            Execution Time: 0.004s
+
+-----------------------------------------------
+
+            Function: <function hill_climbing at 0x000002CC49CE5EE0>
+            Initial state: [4, 3, 1, 1]
+            Fİnal State: (2, 4, 1, 4)
+            Path: [('Queen collum 2, row 3 is moved to row 4 ', (2, 4, 1, 4))]
+            Cost: 3
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 406, 'iterations': 412}
+            Execution Time: 0.000s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function greedy at 0x000002CC49CE59E0>
+            Initial state: [4, 3, 1, 1]
+            Fİnal State: (2, 4, 1, 3)
+            Path: [(None, (4, 3, 1, 1)), ('Queen collum 4, row 1 is moved to row 4 ', (4, 3, 1, 4)), ('Queen collum 1, row 4 is moved to row 2 ', (2, 3, 1, 4)), ('Queen collum 2, row 3 is moved to row 4 ', (2, 4, 1, 4)), ('Queen collum 4, row 4 is moved to row 3 ', (2, 4, 1, 3))]
+            Cost: 4
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 412, 'iterations': 418}
+            Execution Time: 0.001s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function breadth_first at 0x000002CC49CE4360>
+            Initial state: [3, 4, 4, 2]
+            Fİnal State: (3, 1, 4, 2)
+            Path: [(None, (3, 4, 4, 2)), ('Queen collum 2, row 4 is moved to row 1 ', (3, 1, 4, 2))]
+            Cost: 1
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 417, 'iterations': 423}
+            Execution Time: 0.001s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function depth_first at 0x000002CC49CE4540>
+            Initial state: [3, 4, 4, 2]
+            Fİnal State: (2, 4, 1, 3)
+            Path: [(None, (3, 4, 4, 2)), ('Queen collum 4, row 2 is moved to row 4 ', (3, 4, 4, 4)), ('Queen collum 3, row 4 is moved to row 3 ', (3, 4, 3, 4)), ('Queen collum 4, row 4 is moved to row 3 ', (3, 4, 3, 3)), ('Queen collum 3, row 3 is moved to row 2 ', (3, 4, 2, 3)), ('Queen collum 4, row 3 is moved to row 1 ', (3, 4, 2, 1)), ('Queen collum 3, row 2 is moved to row 1 ', (3, 4, 1, 1)), ('Queen collum 2, row 4 is moved to row 3 ', (3, 3, 1, 1)), ('Queen collum 4, row 1 is moved to row 4 ', (3, 3, 1, 4)), ('Queen collum 3, row 1 is moved to row 2 ', (3, 3, 2, 4)), ('Queen collum 4, row 4 is moved to row 2 ', (3, 3, 2, 
+2)), ('Queen collum 3, row 2 is moved to row 3 ', (3, 3, 3, 2)), ('Queen collum 2, row 3 is moved to row 2 ', (3, 2, 3, 2)), ('Queen collum 4, row 2 is moved to row 1 ', (3, 2, 3, 1)), ('Queen collum 3, row 3 is 
+moved to row 4 ', (3, 2, 4, 1)), ('Queen collum 4, row 1 is moved to row 3 ', (3, 2, 4, 3)), ('Queen collum 3, row 4 is moved to row 1 ', (3, 2, 1, 3)), ('Queen collum 2, row 2 is moved to row 1 ', (3, 1, 1, 3)), ('Queen collum 4, row 3 is moved to row 2 ', (3, 1, 1, 2)), ('Queen collum 1, row 3 is moved to row 4 ', (4, 1, 1, 2)), ('Queen collum 4, row 2 is moved to row 4 ', (4, 1, 1, 4)), ('Queen collum 3, row 1 is moved to row 4 ', (4, 1, 4, 4)), ('Queen collum 4, row 4 is moved to row 3 ', (4, 1, 4, 3)), ('Queen collum 3, row 4 is moved to row 3 ', (4, 1, 3, 3)), ('Queen collum 4, row 3 is moved to row 1 ', (4, 1, 3, 1)), ('Queen collum 3, row 3 is moved to row 2 ', (4, 1, 2, 1)), ('Queen collum 2, row 1 is moved to row 3 ', (4, 3, 2, 1)), ('Queen collum 4, row 1 is moved to row 3 ', (4, 3, 2, 3)), ('Queen collum 3, row 2 is moved to row 1 ', (4, 3, 1, 3)), ('Queen collum 2, row 3 is moved to row 4 ', (4, 4, 1, 3)), ('Queen collum 1, row 4 is moved to row 2 ', (2, 4, 1, 3))]
+            Cost: 30
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 448, 'iterations': 454}
+            Execution Time: 0.007s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function astar at 0x000002CC49CE5A80>
+            Initial state: [3, 4, 4, 2]
+            Fİnal State: (3, 1, 4, 2)
+            Path: [(None, (3, 4, 4, 2)), ('Queen collum 2, row 4 is moved to row 1 ', (3, 1, 4, 2))]
+            Cost: 1
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 450, 'iterations': 456}
+            Execution Time: 0.000s
+
+-----------------------------------------------
+
+            Function: <function genetic at 0x000002CC49CE63E0>
+            Initial state: [3, 4, 4, 2]
+            Fİnal State: [3, 1, 2, 4]
+            Path: [('crossover', [3, 1, 2, 4])]
+            Cost: 0
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 450, 'iterations': 456}
+            Execution Time: 0.002s
+
+-----------------------------------------------
+
+            Function: <function hill_climbing at 0x000002CC49CE5EE0>
+            Initial state: [3, 4, 4, 2]
+            Fİnal State: (3, 1, 4, 2)
+            Path: [('Queen collum 2, row 4 is moved to row 1 ', (3, 1, 4, 2))]
+            Cost: 1
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 450, 'iterations': 458}
+            Execution Time: 0.000s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function greedy at 0x000002CC49CE59E0>
+            Initial state: [3, 4, 4, 2]
+            Fİnal State: (3, 1, 4, 2)
+            Path: [(None, (3, 4, 4, 2)), ('Queen collum 2, row 4 is moved to row 1 ', (3, 1, 4, 2))]
+            Cost: 1
+            Stats: {'max_fringe_size': 193, 'visited_nodes': 452, 'iterations': 460}
+            Execution Time: 0.000s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function breadth_first at 0x000002CC49CE4360>
+            Initial state: [1, 2, 3, 4, 5]
+            Fİnal State: (2, 4, 1, 3, 5)
+            Path: [(None, (1, 2, 3, 4, 5)), ('Queen collum 1, row 1 is moved to row 2 ', (2, 2, 3, 4, 5)), ('Queen collum 2, row 2 is moved to row 4 ', (2, 4, 3, 4, 5)), ('Queen collum 3, row 3 is moved to row 1 
+', (2, 4, 1, 4, 5)), ('Queen collum 4, row 4 is moved to row 3 ', (2, 4, 1, 3, 5))]
+            Cost: 4
+            Stats: {'max_fringe_size': 1364, 'visited_nodes': 1372, 'iterations': 1380}
+            Execution Time: 1.436s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function depth_first at 0x000002CC49CE4540>
+            Initial state: [1, 2, 3, 4, 5]
+            Fİnal State: (3, 5, 2, 4, 1)
+            Path: [(None, (1, 2, 3, 4, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 2, 3, 4, 4)), ('Queen collum 4, row 4 is moved to row 5 ', (1, 2, 3, 5, 4)), ('Queen collum 5, row 4 is moved to row 3 
+', (1, 2, 3, 5, 3)), ('Queen collum 4, row 5 is moved to row 3 ', (1, 2, 3, 3, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (1, 2, 3, 3, 2)), ('Queen collum 4, row 3 is moved to row 2 ', (1, 2, 3, 2, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (1, 2, 3, 2, 1)), ('Queen collum 4, row 2 is moved to row 1 ', (1, 2, 3, 1, 1)), ('Queen collum 3, row 3 is moved to row 5 ', (1, 2, 5, 1, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (1, 2, 5, 1, 5)), ('Queen collum 4, row 1 is moved to row 5 ', (1, 2, 5, 5, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (1, 2, 5, 5, 2)), ('Queen collum 4, row 5 is moved to row 4 ', (1, 2, 5, 4, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (1, 2, 5, 4, 3)), ('Queen collum 4, row 4 is moved to row 2 ', (1, 2, 5, 2, 3)), ('Queen collum 5, row 3 is moved to row 4 ', (1, 2, 5, 2, 4)), ('Queen 
+collum 4, row 2 is moved to row 3 ', (1, 2, 5, 3, 4)), ('Queen collum 3, row 5 is moved to row 4 ', (1, 2, 4, 3, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (1, 2, 4, 3, 5)), ('Queen collum 4, row 3 is moved to row 2 ', (1, 2, 4, 2, 5)), ('Queen collum 3, row 4 is moved to row 2 ', (1, 2, 2, 2, 5)), ('Queen collum 2, row 2 is moved to row 5 ', (1, 5, 2, 2, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 5, 2, 2, 4)), ('Queen collum 4, row 2 is moved to row 5 ', (1, 5, 2, 5, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (1, 5, 2, 5, 3)), ('Queen collum 4, row 5 is moved to row 4 ', (1, 5, 2, 4, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (1, 5, 2, 4, 2)), ('Queen collum 4, row 4 is moved to row 3 ', (1, 5, 2, 3, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (1, 5, 2, 3, 1)), ('Queen collum 4, row 3 is moved to row 1 ', (1, 5, 2, 1, 1)), ('Queen collum 3, row 2 is moved to row 4 ', (1, 5, 4, 1, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (1, 5, 4, 1, 5)), ('Queen collum 4, row 1 is moved to row 5 ', (1, 5, 4, 5, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (1, 5, 4, 5, 2)), ('Queen collum 4, row 5 is moved to row 2 ', (1, 5, 4, 2, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (1, 5, 4, 2, 3)), ('Queen collum 4, row 2 is moved to row 3 ', (1, 5, 4, 3, 3)), ('Queen collum 3, row 4 is moved to row 5 ', (1, 5, 5, 3, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (1, 5, 5, 3, 5)), ('Queen collum 4, row 3 is moved to row 4 ', (1, 5, 5, 4, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 5, 5, 4, 4)), ('Queen collum 4, row 4 is moved to row 1 ', (1, 5, 5, 1, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (1, 5, 5, 1, 2)), ('Queen collum 3, row 5 is moved to row 3 ', (1, 5, 3, 1, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (1, 5, 3, 1, 3)), ('Queen collum 3, row 3 is moved to row 1 ', (1, 5, 1, 1, 3)), ('Queen collum 2, row 5 is moved to row 4 ', (1, 4, 1, 1, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (1, 4, 1, 1, 5)), ('Queen collum 4, row 1 is moved to row 5 ', (1, 4, 1, 5, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 
+4, 1, 5, 4)), ('Queen collum 4, row 5 is moved to row 4 ', (1, 4, 1, 4, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (1, 4, 1, 4, 2)), ('Queen collum 4, row 4 is moved to row 3 ', (1, 4, 1, 3, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (1, 4, 1, 3, 1)), ('Queen collum 4, row 3 is moved to row 2 ', (1, 4, 1, 2, 1)), ('Queen collum 3, row 1 is moved to row 5 ', (1, 4, 5, 2, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (1, 4, 5, 2, 5)), ('Queen collum 3, row 5 is moved to row 3 ', (1, 4, 3, 2, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 4, 3, 2, 4)), ('Queen collum 4, row 2 is moved to row 3 ', (1, 4, 3, 
+3, 4)), ('Queen collum 3, row 3 is moved to row 2 ', (1, 4, 2, 3, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (1, 4, 2, 3, 5)), ('Queen collum 4, row 3 is moved to row 4 ', (1, 4, 2, 4, 5)), ('Queen collum 
+5, row 5 is moved to row 1 ', (1, 4, 2, 4, 1)), ('Queen collum 4, row 4 is moved to row 5 ', (1, 4, 2, 5, 1)), ('Queen collum 5, row 1 is moved to row 2 ', (1, 4, 2, 5, 2)), ('Queen collum 4, row 5 is moved to row 2 ', (1, 4, 2, 2, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (1, 4, 2, 2, 3)), ('Queen collum 2, row 4 is moved to row 3 ', (1, 3, 2, 2, 3)), ('Queen collum 5, row 3 is moved to row 1 ', (1, 3, 2, 2, 1)), ('Queen collum 3, row 2 is moved to row 4 ', (1, 3, 4, 2, 1)), ('Queen collum 5, row 1 is moved to row 4 ', (1, 3, 4, 2, 4)), ('Queen collum 4, row 2 is moved to row 5 ', (1, 3, 4, 5, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (1, 3, 4, 5, 3)), ('Queen collum 4, row 5 is moved to row 4 ', (1, 3, 4, 4, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (1, 3, 4, 4, 5)), ('Queen collum 3, row 4 is moved to row 1 ', (1, 3, 1, 4, 5)), ('Queen collum 5, row 5 is moved to row 1 ', (1, 3, 1, 4, 1)), ('Queen collum 4, row 4 is moved to row 5 ', (1, 3, 1, 5, 1)), ('Queen collum 5, row 1 is moved to row 2 ', (1, 3, 1, 5, 2)), ('Queen collum 4, row 5 is moved to row 2 ', (1, 3, 1, 2, 2)), ('Queen collum 3, row 1 is moved to row 5 ', (1, 3, 5, 2, 2)), ('Queen collum 4, row 2 is moved to row 3 ', (1, 3, 5, 3, 2)), ('Queen collum 5, row 2 is 
+moved to row 1 ', (1, 3, 5, 3, 1)), ('Queen collum 3, row 5 is moved to row 3 ', (1, 3, 3, 3, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (1, 3, 3, 3, 5)), ('Queen collum 4, row 3 is moved to row 5 ', (1, 3, 3, 5, 5)), ('Queen collum 3, row 3 is moved to row 2 ', (1, 3, 2, 5, 5)), ('Queen collum 4, row 5 is moved to row 1 ', (1, 3, 2, 1, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 3, 2, 1, 4)), ('Queen collum 4, row 1 is moved to row 4 ', (1, 3, 2, 4, 4)), ('Queen collum 2, row 3 is moved to row 1 ', (1, 1, 2, 4, 4)), ('Queen collum 3, row 2 is moved to row 4 ', (1, 1, 4, 4, 4)), ('Queen collum 5, row 4 is moved 
+to row 2 ', (1, 1, 4, 4, 2)), ('Queen collum 4, row 4 is moved to row 3 ', (1, 1, 4, 3, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (1, 1, 4, 3, 1)), ('Queen collum 4, row 3 is moved to row 5 ', (1, 1, 4, 5, 1)), ('Queen collum 3, row 4 is moved to row 5 ', (1, 1, 5, 5, 1)), ('Queen collum 5, row 1 is moved to row 4 ', (1, 1, 5, 5, 4)), ('Queen collum 1, row 1 is moved to row 5 ', (5, 1, 5, 5, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (5, 1, 5, 5, 5)), ('Queen collum 4, row 5 is moved to row 4 ', (5, 1, 5, 4, 5)), ('Queen collum 5, row 5 is moved to row 3 ', (5, 1, 5, 4, 3)), ('Queen collum 4, row 4 is moved to row 3 ', (5, 1, 5, 3, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (5, 1, 5, 3, 2)), ('Queen collum 4, row 3 is moved to row 2 ', (5, 1, 5, 2, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (5, 1, 5, 2, 1)), ('Queen collum 4, row 2 is moved to row 1 ', (5, 1, 5, 1, 1)), ('Queen collum 3, row 5 is moved to row 4 ', (5, 1, 4, 1, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (5, 1, 4, 1, 5)), ('Queen collum 4, row 
+1 is moved to row 3 ', (5, 1, 4, 3, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (5, 1, 4, 3, 4)), ('Queen collum 4, row 3 is moved to row 2 ', (5, 1, 4, 2, 4)), ('Queen collum 5, row 4 is moved to row 3 ', 
+(5, 1, 4, 2, 3)), ('Queen collum 4, row 2 is moved to row 5 ', (5, 1, 4, 5, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (5, 1, 4, 5, 2)), ('Queen collum 3, row 4 is moved to row 3 ', (5, 1, 3, 5, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (5, 1, 3, 5, 1)), ('Queen collum 4, row 5 is moved to row 4 ', (5, 1, 3, 4, 1)), ('Queen collum 5, row 1 is moved to row 4 ', (5, 1, 3, 4, 4)), ('Queen collum 4, row 4 is moved to row 1 ', (5, 1, 3, 1, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (5, 1, 3, 1, 3)), ('Queen collum 3, row 3 is moved to row 2 ', (5, 1, 2, 1, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (5, 1, 2, 1, 2)), ('Queen collum 4, row 1 is moved to row 4 ', (5, 1, 2, 4, 2)), ('Queen collum 3, row 2 is moved to row 1 ', (5, 1, 1, 4, 2)), ('Queen collum 2, row 1 is moved to row 5 ', (5, 5, 1, 4, 2)), ('Queen collum 5, row 2 is moved to row 5 ', (5, 5, 1, 4, 5)), ('Queen collum 4, row 4 is moved to row 5 ', (5, 5, 1, 5, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (5, 5, 1, 5, 4)), ('Queen collum 4, row 5 is moved to row 3 ', (5, 5, 1, 3, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (5, 5, 1, 3, 3)), ('Queen collum 4, row 3 is moved to row 2 ', (5, 5, 1, 2, 3)), ('Queen collum 5, row 3 is moved to row 1 ', (5, 5, 1, 2, 1)), ('Queen collum 4, row 2 is moved to row 1 ', (5, 5, 1, 1, 1)), ('Queen collum 3, row 1 is moved to row 3 ', (5, 5, 3, 1, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (5, 5, 3, 1, 5)), ('Queen collum 4, row 1 is moved to row 3 ', (5, 5, 3, 3, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (5, 5, 3, 3, 2)), ('Queen collum 4, row 3 is moved to row 2 ', (5, 5, 3, 2, 2)), ('Queen collum 5, row 2 is moved to row 
+4 ', (5, 5, 3, 2, 4)), ('Queen collum 3, row 3 is moved to row 5 ', (5, 5, 5, 2, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (5, 5, 5, 2, 5)), ('Queen collum 3, row 5 is moved to row 4 ', (5, 5, 4, 2, 5)), 
+('Queen collum 2, row 5 is moved to row 4 ', (5, 4, 4, 2, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (5, 4, 4, 2, 2)), ('Queen collum 4, row 2 is moved to row 4 ', (5, 4, 4, 4, 2)), ('Queen collum 5, row 2 is moved to row 4 ', (5, 4, 4, 4, 4)), ('Queen collum 4, row 4 is moved to row 5 ', (5, 4, 4, 5, 4)), ('Queen collum 5, row 4 is moved to row 1 ', (5, 4, 4, 5, 1)), ('Queen collum 4, row 5 is moved to row 3 ', (5, 4, 4, 3, 1)), ('Queen collum 5, row 1 is moved to row 3 ', (5, 4, 4, 3, 3)), ('Queen collum 4, row 3 is moved to row 1 ', (5, 4, 4, 1, 3)), ('Queen collum 3, row 4 is moved to row 5 ', (5, 4, 5, 1, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (5, 4, 5, 1, 5)), ('Queen collum 4, row 1 is moved to row 3 ', (5, 4, 5, 3, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (5, 4, 5, 3, 4)), ('Queen collum 2, row 4 is moved to row 3 ', (5, 3, 5, 3, 4)), ('Queen collum 4, row 3 is moved to row 4 ', (5, 3, 5, 4, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (5, 3, 5, 4, 2)), ('Queen collum 4, row 4 is moved to row 5 ', (5, 3, 
+5, 5, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (5, 3, 5, 5, 3)), ('Queen collum 4, row 5 is moved to row 2 ', (5, 3, 5, 2, 3)), ('Queen collum 3, row 5 is moved to row 3 ', (5, 3, 3, 2, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (5, 3, 3, 2, 5)), ('Queen collum 4, row 2 is moved to row 4 ', (5, 3, 3, 4, 5)), ('Queen collum 3, row 3 is moved to row 2 ', (5, 3, 2, 4, 5)), ('Queen collum 5, row 5 is moved to row 3 ', (5, 3, 2, 4, 3)), ('Queen collum 4, row 4 is moved to row 3 ', (5, 3, 2, 3, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (5, 3, 2, 3, 2)), ('Queen collum 4, row 3 is moved to row 2 ', (5, 3, 2, 2, 
+2)), ('Queen collum 5, row 2 is moved to row 4 ', (5, 3, 2, 2, 4)), ('Queen collum 4, row 2 is moved to row 5 ', (5, 3, 2, 5, 4)), ('Queen collum 5, row 4 is moved to row 1 ', (5, 3, 2, 5, 1)), ('Queen collum 4, 
+row 5 is moved to row 1 ', (5, 3, 2, 1, 1)), ('Queen collum 2, row 3 is moved to row 4 ', (5, 4, 2, 1, 1)), ('Queen collum 5, row 1 is moved to row 4 ', (5, 4, 2, 1, 4)), ('Queen collum 3, row 2 is moved to row 1 ', (5, 4, 1, 1, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (5, 4, 1, 1, 2)), ('Queen collum 4, row 1 is moved to row 5 ', (5, 4, 1, 5, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (5, 4, 1, 5, 3)), ('Queen collum 4, row 5 is moved to row 4 ', (5, 4, 1, 4, 3)), ('Queen collum 5, row 3 is moved to row 1 ', (5, 4, 1, 4, 1)), ('Queen collum 3, row 1 is moved to row 5 ', (5, 4, 5, 4, 1)), ('Queen collum 2, row 4 
+is moved to row 5 ', (5, 5, 5, 4, 1)), ('Queen collum 4, row 4 is moved to row 5 ', (5, 5, 5, 5, 1)), ('Queen collum 2, row 5 is moved to row 2 ', (5, 2, 5, 5, 1)), ('Queen collum 4, row 5 is moved to row 3 ', (5, 2, 5, 3, 1)), ('Queen collum 3, row 5 is moved to row 3 ', (5, 2, 3, 3, 1)), ('Queen collum 5, row 1 is moved to row 4 ', (5, 2, 3, 3, 4)), ('Queen collum 3, row 3 is moved to row 2 ', (5, 2, 2, 3, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (5, 2, 2, 3, 5)), ('Queen collum 4, row 3 is moved to row 5 ', (5, 2, 2, 5, 5)), ('Queen collum 5, row 5 is moved to row 3 ', (5, 2, 2, 5, 3)), ('Queen collum 4, row 5 is moved to row 2 ', (5, 2, 2, 2, 3)), ('Queen collum 5, row 3 is moved to row 1 ', (5, 2, 2, 2, 1)), ('Queen collum 4, row 2 is moved to row 4 ', (5, 2, 2, 4, 1)), ('Queen collum 3, row 2 is moved to row 4 ', (5, 2, 4, 4, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (5, 2, 4, 4, 5)), ('Queen collum 1, row 5 is moved to row 4 ', (4, 2, 4, 4, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (4, 2, 4, 4, 4)), ('Queen collum 4, row 4 is moved to row 5 ', (4, 2, 4, 5, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (4, 2, 4, 5, 3)), ('Queen collum 4, row 5 is moved to row 3 ', (4, 2, 4, 3, 3)), ('Queen collum 5, row 3 is moved to 
+row 2 ', (4, 2, 4, 3, 2)), ('Queen collum 4, row 3 is moved to row 2 ', (4, 2, 4, 2, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (4, 2, 4, 2, 1)), ('Queen collum 4, row 2 is moved to row 1 ', (4, 2, 4, 1, 1)), ('Queen collum 3, row 4 is moved to row 2 ', (4, 2, 2, 1, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (4, 2, 2, 1, 5)), ('Queen collum 3, row 2 is moved to row 3 ', (4, 2, 3, 1, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (4, 2, 3, 1, 4)), ('Queen collum 4, row 1 is moved to row 2 ', (4, 2, 3, 2, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (4, 2, 3, 2, 3)), ('Queen collum 4, row 2 is moved to row 4 
+', (4, 2, 3, 4, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (4, 2, 3, 4, 2)), ('Queen collum 4, row 4 is moved to row 5 ', (4, 2, 3, 5, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (4, 2, 3, 5, 1)), ('Queen collum 3, row 3 is moved to row 1 ', (4, 2, 1, 5, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (4, 2, 1, 5, 5)), ('Queen collum 4, row 5 is moved to row 3 ', (4, 2, 1, 3, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (4, 2, 1, 3, 4)), ('Queen collum 2, row 2 is moved to row 4 ', (4, 4, 1, 3, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (4, 4, 1, 3, 3)), ('Queen collum 4, row 3 is moved to row 2 ', (4, 4, 1, 2, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (4, 4, 1, 2, 5)), ('Queen collum 4, row 2 is moved to row 4 ', (4, 4, 1, 4, 5)), ('Queen collum 3, row 1 is moved to row 5 ', (4, 4, 5, 4, 5)), ('Queen 
+collum 5, row 5 is moved to row 4 ', (4, 4, 5, 4, 4)), ('Queen collum 4, row 4 is moved to row 5 ', (4, 4, 5, 5, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (4, 4, 5, 5, 3)), ('Queen collum 3, row 5 is moved to row 3 ', (4, 4, 3, 5, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (4, 4, 3, 5, 5)), ('Queen collum 4, row 5 is moved to row 3 ', (4, 4, 3, 3, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (4, 4, 3, 3, 2)), ('Queen collum 4, row 3 is moved to row 2 ', (4, 4, 3, 2, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (4, 4, 3, 2, 1)), ('Queen collum 4, row 2 is moved to row 4 ', (4, 4, 3, 4, 1)), ('Queen collum 3, row 3 is moved to row 4 ', (4, 4, 4, 4, 1)), ('Queen collum 5, row 1 is moved to row 3 ', (4, 4, 4, 4, 3)), ('Queen collum 3, row 4 is moved to row 2 ', (4, 4, 2, 4, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (4, 4, 2, 4, 2)), ('Queen collum 4, row 4 is moved to row 1 ', (4, 4, 2, 1, 2)), ('Queen collum 3, row 2 is moved to row 5 ', (4, 4, 5, 1, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (4, 4, 5, 1, 1)), ('Queen collum 4, row 1 is moved to row 3 ', (4, 4, 5, 3, 1)), ('Queen collum 3, row 5 is moved to row 2 ', (4, 4, 2, 3, 1)), ('Queen collum 2, row 4 is moved to row 3 ', (4, 3, 2, 3, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (4, 3, 2, 3, 5)), ('Queen collum 4, row 3 is moved to row 2 ', (4, 3, 2, 2, 5)), ('Queen collum 3, row 2 is moved to row 5 ', (4, 3, 5, 2, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (4, 3, 5, 2, 4)), ('Queen collum 4, row 2 is moved to row 1 ', (4, 3, 5, 1, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (4, 3, 5, 1, 3)), ('Queen collum 4, row 1 is moved to row 4 ', (4, 3, 5, 4, 3)), ('Queen collum 5, row 3 is moved to row 1 ', (4, 3, 5, 4, 1)), ('Queen collum 4, row 4 is moved to row 5 ', (4, 3, 5, 5, 1)), ('Queen collum 3, row 5 is moved to row 4 ', (4, 3, 4, 5, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (4, 3, 4, 5, 5)), ('Queen collum 4, row 5 is moved to row 1 ', (4, 3, 4, 1, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (4, 3, 4, 1, 2)), ('Queen collum 4, row 1 is moved to row 4 ', (4, 
+3, 4, 4, 2)), ('Queen collum 3, row 4 is moved to row 1 ', (4, 3, 1, 4, 2)), ('Queen collum 5, row 2 is moved to row 4 ', (4, 3, 1, 4, 4)), ('Queen collum 4, row 4 is moved to row 5 ', (4, 3, 1, 5, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (4, 3, 1, 5, 3)), ('Queen collum 3, row 1 is moved to row 2 ', (4, 3, 2, 5, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (4, 3, 2, 5, 2)), ('Queen collum 2, row 3 is moved to row 5 ', (4, 5, 2, 5, 2)), ('Queen collum 5, row 2 is moved to row 5 ', (4, 5, 2, 5, 5)), ('Queen collum 4, row 5 is moved to row 4 ', (4, 5, 2, 4, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (4, 5, 2, 
+4, 4)), ('Queen collum 4, row 4 is moved to row 3 ', (4, 5, 2, 3, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (4, 5, 2, 3, 3)), ('Queen collum 4, row 3 is moved to row 2 ', (4, 5, 2, 2, 3)), ('Queen collum 
+5, row 3 is moved to row 1 ', (4, 5, 2, 2, 1)), ('Queen collum 3, row 2 is moved to row 5 ', (4, 5, 5, 2, 1)), ('Queen collum 5, row 1 is moved to row 2 ', (4, 5, 5, 2, 2)), ('Queen collum 4, row 2 is moved to row 4 ', (4, 5, 5, 4, 2)), ('Queen collum 2, row 5 is moved to row 1 ', (4, 1, 5, 4, 2)), ('Queen collum 4, row 4 is moved to row 5 ', (4, 1, 5, 5, 2)), ('Queen collum 3, row 5 is moved to row 1 ', (4, 1, 1, 5, 2)), ('Queen collum 4, row 5 is moved to row 3 ', (4, 1, 1, 3, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (4, 1, 1, 3, 1)), ('Queen collum 4, row 3 is moved to row 4 ', (4, 1, 1, 4, 1)), ('Queen collum 5, row 1 is moved to row 3 ', (4, 1, 1, 4, 3)), ('Queen collum 4, row 4 is moved to row 1 ', (4, 1, 1, 1, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (4, 1, 1, 1, 5)), ('Queen collum 3, row 1 is moved to row 5 ', (4, 1, 5, 1, 5)), ('Queen collum 4, row 1 is moved to row 3 ', (4, 1, 5, 3, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (4, 1, 5, 3, 4)), ('Queen collum 3, row 5 is moved to row 3 ', (4, 1, 3, 3, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (4, 1, 3, 3, 3)), ('Queen collum 2, row 1 is moved to row 3 ', (4, 3, 3, 3, 3)), ('Queen collum 1, row 4 is moved to row 3 ', (3, 3, 3, 3, 3)), ('Queen collum 5, row 3 is 
+moved to row 4 ', (3, 3, 3, 3, 4)), ('Queen collum 4, row 3 is moved to row 5 ', (3, 3, 3, 5, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (3, 3, 3, 5, 2)), ('Queen collum 4, row 5 is moved to row 4 ', (3, 3, 3, 4, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (3, 3, 3, 4, 1)), ('Queen collum 4, row 4 is moved to row 2 ', (3, 3, 3, 2, 1)), ('Queen collum 3, row 3 is moved to row 5 ', (3, 3, 5, 2, 1)), ('Queen collum 4, row 2 is moved to row 1 ', (3, 3, 5, 1, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (3, 3, 5, 1, 5)), ('Queen collum 4, row 1 is moved to row 5 ', (3, 3, 5, 5, 5)), ('Queen collum 3, row 5 is moved 
+to row 1 ', (3, 3, 1, 5, 5)), ('Queen collum 4, row 5 is moved to row 3 ', (3, 3, 1, 3, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (3, 3, 1, 3, 2)), ('Queen collum 4, row 3 is moved to row 1 ', (3, 3, 1, 1, 2)), ('Queen collum 5, row 2 is moved to row 4 ', (3, 3, 1, 1, 4)), ('Queen collum 4, row 1 is moved to row 2 ', (3, 3, 1, 2, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (3, 3, 1, 2, 3)), ('Queen collum 4, row 2 is moved to row 4 ', (3, 3, 1, 4, 3)), ('Queen collum 2, row 3 is moved to row 5 ', (3, 5, 1, 4, 3)), ('Queen collum 5, row 3 is moved to row 4 ', (3, 5, 1, 4, 4)), ('Queen collum 3, row 1 is moved to row 4 ', (3, 5, 4, 4, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (3, 5, 4, 4, 5)), ('Queen collum 4, row 4 is moved to row 3 ', (3, 5, 4, 3, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (3, 5, 4, 3, 2)), ('Queen collum 4, row 3 is moved to row 1 ', (3, 5, 4, 1, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (3, 5, 4, 1, 3)), ('Queen collum 4, row 1 is moved to row 5 ', (3, 5, 4, 5, 3)), ('Queen collum 5, row 
+3 is moved to row 1 ', (3, 5, 4, 5, 1)), ('Queen collum 4, row 5 is moved to row 2 ', (3, 5, 4, 2, 1)), ('Queen collum 2, row 5 is moved to row 4 ', (3, 4, 4, 2, 1)), ('Queen collum 5, row 1 is moved to row 4 ', 
+(3, 4, 4, 2, 4)), ('Queen collum 4, row 2 is moved to row 3 ', (3, 4, 4, 3, 4)), ('Queen collum 1, row 3 is moved to row 2 ', (2, 4, 4, 3, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (2, 4, 4, 3, 5)), ('Queen collum 4, row 3 is moved to row 5 ', (2, 4, 4, 5, 5)), ('Queen collum 5, row 5 is moved to row 3 ', (2, 4, 4, 5, 3)), ('Queen collum 4, row 5 is moved to row 2 ', (2, 4, 4, 2, 3)), ('Queen collum 3, row 4 is moved to row 5 ', (2, 4, 5, 2, 3)), ('Queen collum 5, row 3 is moved to row 4 ', (2, 4, 5, 2, 4)), ('Queen collum 4, row 2 is moved to row 1 ', (2, 4, 5, 1, 4)), ('Queen collum 3, row 5 is moved to row 3 ', (2, 4, 3, 1, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (2, 4, 3, 1, 5)), ('Queen collum 4, row 1 is moved to row 4 ', (2, 4, 3, 4, 5)), ('Queen collum 5, row 5 is moved to row 3 ', (2, 4, 3, 4, 3)), ('Queen collum 4, row 4 is moved to row 3 ', (2, 4, 3, 3, 3)), ('Queen collum 5, row 3 is moved to row 1 ', (2, 4, 3, 3, 1)), ('Queen collum 4, row 3 is moved to row 5 ', (2, 4, 3, 5, 1)), ('Queen collum 5, row 1 is moved to row 2 ', (2, 4, 3, 5, 2)), ('Queen collum 3, row 3 is moved to row 5 ', (2, 4, 5, 5, 2)), ('Queen collum 4, row 5 is moved to row 4 ', (2, 4, 5, 4, 2)), ('Queen collum 1, row 2 is moved to row 3 ', (3, 4, 5, 4, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (3, 4, 5, 4, 3)), ('Queen collum 4, row 4 is moved to row 3 ', (3, 4, 5, 3, 3)), ('Queen collum 3, row 5 is moved to row 2 ', (3, 4, 2, 3, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (3, 4, 2, 3, 2)), ('Queen collum 2, row 4 is moved to row 2 ', (3, 2, 2, 3, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (3, 2, 2, 3, 1)), ('Queen collum 4, row 3 is moved to row 
+5 ', (3, 2, 2, 5, 1)), ('Queen collum 5, row 1 is moved to row 4 ', (3, 2, 2, 5, 4)), ('Queen collum 4, row 5 is moved to row 4 ', (3, 2, 2, 4, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (3, 2, 2, 4, 5)), 
+('Queen collum 3, row 2 is moved to row 5 ', (3, 2, 5, 4, 5)), ('Queen collum 5, row 5 is moved to row 1 ', (3, 2, 5, 4, 1)), ('Queen collum 3, row 5 is moved to row 1 ', (3, 2, 1, 4, 1)), ('Queen collum 5, row 1 is moved to row 2 ', (3, 2, 1, 4, 2)), ('Queen collum 4, row 4 is moved to row 5 ', (3, 2, 1, 5, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (3, 2, 1, 5, 3)), ('Queen collum 4, row 5 is moved to row 3 ', (3, 2, 1, 3, 3)), ('Queen collum 2, row 2 is moved to row 1 ', (3, 1, 1, 3, 3)), ('Queen collum 5, row 3 is moved to row 4 ', (3, 1, 1, 3, 4)), ('Queen collum 4, row 3 is moved to row 5 ', (3, 1, 1, 5, 4)), ('Queen collum 5, row 4 is moved to row 1 ', (3, 1, 1, 5, 1)), ('Queen collum 4, row 5 is moved to row 2 ', (3, 1, 1, 2, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (3, 1, 1, 2, 5)), ('Queen collum 4, row 2 is moved to row 4 ', (3, 1, 1, 4, 5)), ('Queen collum 3, row 1 is moved to row 3 ', (3, 1, 3, 4, 5)), ('Queen collum 5, row 5 is moved to row 3 ', (3, 1, 3, 4, 3)), ('Queen collum 4, row 4 is moved to row 5 ', (3, 1, 
+3, 5, 3)), ('Queen collum 3, row 3 is moved to row 5 ', (3, 1, 5, 5, 3)), ('Queen collum 4, row 5 is moved to row 2 ', (3, 1, 5, 2, 3)), ('Queen collum 5, row 3 is moved to row 4 ', (3, 1, 5, 2, 4)), ('Queen collum 4, row 2 is moved to row 4 ', (3, 1, 5, 4, 4)), ('Queen collum 1, row 3 is moved to row 2 ', (2, 1, 5, 4, 4)), ('Queen collum 5, row 4 is moved to row 1 ', (2, 1, 5, 4, 1)), ('Queen collum 4, row 4 is moved to row 3 ', (2, 1, 5, 3, 1)), ('Queen collum 3, row 5 is moved to row 2 ', (2, 1, 2, 3, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (2, 1, 2, 3, 5)), ('Queen collum 4, row 3 is moved to row 5 ', (2, 1, 2, 5, 
+5)), ('Queen collum 5, row 5 is moved to row 4 ', (2, 1, 2, 5, 4)), ('Queen collum 4, row 5 is moved to row 2 ', (2, 1, 2, 2, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (2, 1, 2, 2, 3)), ('Queen collum 4, 
+row 2 is moved to row 4 ', (2, 1, 2, 4, 3)), ('Queen collum 3, row 2 is moved to row 4 ', (2, 1, 4, 4, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (2, 1, 4, 4, 5)), ('Queen collum 4, row 4 is moved to row 2 ', (2, 1, 4, 2, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (2, 1, 4, 2, 2)), ('Queen collum 4, row 2 is moved to row 1 ', (2, 1, 4, 1, 2)), ('Queen collum 5, row 2 is moved to row 4 ', (2, 1, 4, 1, 4)), ('Queen collum 3, row 4 is moved to row 1 ', (2, 1, 1, 1, 4)), ('Queen collum 5, row 4 is moved to row 1 ', (2, 1, 1, 1, 1)), ('Queen collum 3, row 1 is moved to row 3 ', (2, 1, 3, 1, 1)), ('Queen collum 4, row 1 
+is moved to row 2 ', (2, 1, 3, 2, 1)), ('Queen collum 2, row 1 is moved to row 5 ', (2, 5, 3, 2, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (2, 5, 3, 2, 5)), ('Queen collum 4, row 2 is moved to row 5 ', (2, 5, 3, 5, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (2, 5, 3, 5, 4)), ('Queen collum 4, row 5 is moved to row 4 ', (2, 5, 3, 4, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (2, 5, 3, 4, 2)), ('Queen collum 3, row 3 is moved to row 4 ', (2, 5, 4, 4, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (2, 5, 4, 4, 1)), ('Queen collum 4, row 4 is moved to row 3 ', (2, 5, 4, 3, 1)), ('Queen collum 3, row 4 is moved to row 1 ', (2, 5, 1, 3, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (2, 5, 1, 3, 5)), ('Queen collum 4, row 3 is moved to row 1 ', (2, 5, 1, 1, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (2, 5, 1, 1, 2)), ('Queen collum 4, row 1 is moved to row 5 ', (2, 5, 1, 5, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (2, 5, 1, 5, 3)), ('Queen collum 3, row 1 is moved to row 5 ', (2, 5, 5, 5, 3)), ('Queen collum 4, row 5 is moved to row 1 ', (2, 5, 5, 1, 3)), ('Queen collum 3, row 5 is moved to row 2 ', (2, 5, 2, 1, 3)), ('Queen collum 5, row 3 is moved to row 4 ', (2, 5, 2, 1, 4)), ('Queen collum 2, row 5 is moved to 
+row 2 ', (2, 2, 2, 1, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (2, 2, 2, 1, 2)), ('Queen collum 4, row 1 is moved to row 5 ', (2, 2, 2, 5, 2)), ('Queen collum 3, row 2 is moved to row 4 ', (2, 2, 4, 5, 2)), ('Queen collum 2, row 2 is moved to row 3 ', (2, 3, 4, 5, 2)), ('Queen collum 4, row 5 is moved to row 3 ', (2, 3, 4, 3, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (2, 3, 4, 3, 3)), ('Queen collum 4, row 3 is moved to row 1 ', (2, 3, 4, 1, 3)), ('Queen collum 3, row 4 is moved to row 3 ', (2, 3, 3, 1, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (2, 3, 3, 1, 2)), ('Queen collum 1, row 2 is moved to row 5 
+', (5, 3, 3, 1, 2)), ('Queen collum 2, row 3 is moved to row 2 ', (5, 2, 3, 1, 2)), ('Queen collum 3, row 3 is moved to row 5 ', (5, 2, 5, 1, 2)), ('Queen collum 5, row 2 is moved to row 4 ', (5, 2, 5, 1, 4)), ('Queen collum 3, row 5 is moved to row 4 ', (5, 2, 4, 1, 4)), ('Queen collum 2, row 2 is moved to row 5 ', (5, 5, 4, 1, 4)), ('Queen collum 1, row 5 is moved to row 4 ', (4, 5, 4, 1, 4)), ('Queen collum 4, row 1 is moved to row 2 ', (4, 5, 4, 2, 4)), ('Queen collum 3, row 4 is moved to row 1 ', (4, 5, 1, 2, 4)), ('Queen collum 1, row 4 is moved to row 2 ', (2, 5, 1, 2, 4)), ('Queen collum 2, row 5 is moved to row 2 ', (2, 2, 1, 2, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (2, 2, 1, 2, 5)), ('Queen collum 4, row 2 is moved to row 4 ', (2, 2, 1, 4, 5)), ('Queen collum 5, row 5 is moved to row 3 ', (2, 2, 1, 4, 3)), ('Queen 
+collum 4, row 4 is moved to row 1 ', (2, 2, 1, 1, 3)), ('Queen collum 1, row 2 is moved to row 5 ', (5, 2, 1, 1, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (5, 2, 1, 1, 5)), ('Queen collum 1, row 5 is moved to row 3 ', (3, 2, 1, 1, 5)), ('Queen collum 3, row 1 is moved to row 4 ', (3, 2, 4, 1, 5)), ('Queen collum 2, row 2 is moved to row 4 ', (3, 4, 4, 1, 5)), ('Queen collum 3, row 4 is moved to row 2 ', (3, 4, 2, 1, 5)), ('Queen collum 2, row 4 is moved to row 1 ', (3, 1, 2, 1, 5)), ('Queen collum 5, row 5 is moved to row 1 ', (3, 1, 2, 1, 1)), ('Queen collum 4, row 1 is moved to row 4 ', (3, 1, 2, 4, 1)), ('Queen collum 2, row 1 is moved to row 5 ', (3, 5, 2, 4, 1))]
+            Cost: 451
+            Stats: {'max_fringe_size': 2561, 'visited_nodes': 1908, 'iterations': 1916}
+            Execution Time: 1.438s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function astar at 0x000002CC49CE5A80>
+            Initial state: [1, 2, 3, 4, 5]
+            Fİnal State: (2, 5, 3, 1, 4)
+            Path: [(None, (1, 2, 3, 4, 5)), ('Queen collum 1, row 1 is moved to row 2 ', (2, 2, 3, 4, 5)), ('Queen collum 4, row 4 is moved to row 1 ', (2, 2, 3, 1, 5)), ('Queen collum 2, row 2 is moved to row 5 
+', (2, 5, 3, 1, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (2, 5, 3, 1, 4))]
+            Cost: 4
+            Stats: {'max_fringe_size': 2561, 'visited_nodes': 1915, 'iterations': 1923}
+            Execution Time: 0.002s
+
+-----------------------------------------------
+
+            Function: <function genetic at 0x000002CC49CE63E0>
+            Initial state: [1, 2, 3, 4, 5]
+            Fİnal State: [2, 5, 4, 1, 3]
+            Path: [('crossover', [2, 5, 4, 1, 3])]
+            Cost: 0
+            Stats: {'max_fringe_size': 2561, 'visited_nodes': 1915, 'iterations': 1923}
+            Execution Time: 0.005s
+
+-----------------------------------------------
+
+            Function: <function hill_climbing at 0x000002CC49CE5EE0>
+            Initial state: [1, 2, 3, 4, 5]
+            Fİnal State: (1, 2, 5, 3, 1)
+            Path: [('Queen collum 5, row 4 is moved to row 1 ', (1, 2, 5, 3, 1))]
+            Cost: 5
+            Stats: {'max_fringe_size': 2561, 'visited_nodes': 1915, 'iterations': 1928}
+            Execution Time: 0.002s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function greedy at 0x000002CC49CE59E0>
+            Initial state: [1, 2, 3, 4, 5]
+            Fİnal State: (2, 4, 1, 3, 5)
+            Path: [(None, (1, 2, 3, 4, 5)), ('Queen collum 1, row 1 is moved to row 2 ', (2, 2, 3, 4, 5)), ('Queen collum 2, row 2 is moved to row 1 ', (2, 1, 3, 4, 5)), ('Queen collum 3, row 3 is moved to row 1 
+', (2, 1, 1, 4, 5)), ('Queen collum 2, row 1 is moved to row 4 ', (2, 4, 1, 4, 5)), ('Queen collum 4, row 4 is moved to row 3 ', (2, 4, 1, 3, 5))]
+            Cost: 5
+            Stats: {'max_fringe_size': 2561, 'visited_nodes': 1922, 'iterations': 1935}
+            Execution Time: 0.003s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function breadth_first at 0x000002CC49CE4360>
+            Initial state: [1, 3, 1, 5, 4]
+            Fİnal State: (1, 3, 5, 2, 4)
+            Path: [(None, (1, 3, 1, 5, 4)), ('Queen collum 3, row 1 is moved to row 5 ', (1, 3, 5, 5, 4)), ('Queen collum 4, row 5 is moved to row 2 ', (1, 3, 5, 2, 4))]
+            Cost: 2
+            Stats: {'max_fringe_size': 2561, 'visited_nodes': 2081, 'iterations': 2094}
+            Execution Time: 0.111s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function depth_first at 0x000002CC49CE4540>
+            Initial state: [1, 3, 1, 5, 4]
+            Fİnal State: (2, 5, 3, 1, 4)
+            Path: [(None, (1, 3, 1, 5, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (1, 3, 1, 5, 5)), ('Queen collum 4, row 5 is moved to row 4 ', (1, 3, 1, 4, 5)), ('Queen collum 5, row 5 is moved to row 3 
+', (1, 3, 1, 4, 3)), ('Queen collum 4, row 4 is moved to row 3 ', (1, 3, 1, 3, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (1, 3, 1, 3, 2)), ('Queen collum 4, row 3 is moved to row 2 ', (1, 3, 1, 2, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (1, 3, 1, 2, 1)), ('Queen collum 4, row 2 is moved to row 1 ', (1, 3, 1, 1, 1)), ('Queen collum 3, row 1 is moved to row 5 ', (1, 3, 5, 1, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (1, 3, 5, 1, 5)), ('Queen collum 4, row 1 is moved to row 3 ', (1, 3, 5, 3, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 3, 5, 3, 4)), ('Queen collum 4, row 3 is moved to row 4 ', (1, 3, 5, 4, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (1, 3, 5, 4, 2)), ('Queen collum 4, row 4 is moved to row 5 ', (1, 3, 5, 5, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (1, 3, 5, 5, 3)), ('Queen 
+collum 4, row 5 is moved to row 2 ', (1, 3, 5, 2, 3)), ('Queen collum 3, row 5 is moved to row 4 ', (1, 3, 4, 2, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (1, 3, 4, 2, 5)), ('Queen collum 3, row 4 is moved to row 3 ', (1, 3, 3, 2, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 3, 3, 2, 4)), ('Queen collum 4, row 2 is moved to row 1 ', (1, 3, 3, 1, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (1, 3, 3, 1, 3)), ('Queen collum 3, row 3 is moved to row 2 ', (1, 3, 2, 1, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (1, 3, 2, 1, 2)), ('Queen collum 3, row 2 is moved to row 4 ', (1, 3, 4, 1, 2)), ('Queen collum 2, row 3 is moved to row 5 ', (1, 5, 4, 1, 2)), ('Queen collum 5, row 2 is moved to row 5 ', (1, 5, 4, 1, 5)), ('Queen collum 4, row 1 is moved to row 5 ', (1, 5, 4, 5, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 5, 4, 5, 4)), ('Queen collum 4, row 5 is moved to row 4 ', (1, 5, 4, 4, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (1, 5, 4, 4, 3)), ('Queen collum 4, row 4 is moved to row 3 ', (1, 5, 4, 3, 3)), ('Queen collum 5, row 3 is moved to row 1 ', (1, 5, 4, 3, 1)), ('Queen collum 4, row 3 is moved to row 2 ', (1, 5, 4, 2, 1)), ('Queen collum 3, row 4 is moved to row 5 ', (1, 5, 5, 2, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (1, 5, 5, 2, 5)), ('Queen collum 4, row 2 is moved to row 4 ', (1, 5, 5, 4, 5)), ('Queen collum 3, row 5 is moved to row 3 ', (1, 5, 3, 4, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (1, 5, 3, 4, 2)), ('Queen collum 4, row 4 is moved to row 5 ', (1, 5, 3, 5, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (1, 5, 3, 5, 3)), ('Queen collum 4, row 5 is moved to row 2 ', (1, 5, 3, 2, 3)), ('Queen collum 3, row 3 is moved to row 2 ', (1, 5, 2, 2, 3)), ('Queen collum 5, row 3 is moved to row 4 ', (1, 5, 2, 2, 4)), ('Queen collum 4, row 2 is moved to row 3 ', (1, 5, 2, 3, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (1, 5, 2, 3, 5)), ('Queen collum 3, row 2 is moved to row 1 ', (1, 5, 1, 3, 5)), ('Queen collum 2, row 5 is moved to row 4 ', (1, 4, 1, 3, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 
+4, 1, 3, 4)), ('Queen collum 4, row 3 is moved to row 4 ', (1, 4, 1, 4, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (1, 4, 1, 4, 2)), ('Queen collum 4, row 4 is moved to row 5 ', (1, 4, 1, 5, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (1, 4, 1, 5, 3)), ('Queen collum 4, row 5 is moved to row 2 ', (1, 4, 1, 2, 3)), ('Queen collum 2, row 4 is moved to row 2 ', (1, 2, 1, 2, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (1, 2, 1, 2, 5)), ('Queen collum 4, row 2 is moved to row 1 ', (1, 2, 1, 1, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 2, 1, 1, 4)), ('Queen collum 3, row 1 is moved to row 5 ', (1, 2, 5, 
+1, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (1, 2, 5, 1, 3)), ('Queen collum 4, row 1 is moved to row 4 ', (1, 2, 5, 4, 3)), ('Queen collum 5, row 3 is moved to row 1 ', (1, 2, 5, 4, 1)), ('Queen collum 
+4, row 4 is moved to row 5 ', (1, 2, 5, 5, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (1, 2, 5, 5, 5)), ('Queen collum 3, row 5 is moved to row 3 ', (1, 2, 3, 5, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 2, 3, 5, 4)), ('Queen collum 4, row 5 is moved to row 4 ', (1, 2, 3, 4, 4)), ('Queen collum 3, row 3 is moved to row 2 ', (1, 2, 2, 4, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (1, 2, 2, 4, 5)), ('Queen collum 3, row 2 is moved to row 4 ', (1, 2, 4, 4, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (1, 2, 4, 4, 2)), ('Queen collum 4, row 4 is moved to row 5 ', (1, 2, 4, 5, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (1, 2, 4, 5, 3)), ('Queen collum 3, row 4 is moved to row 2 ', (1, 2, 2, 5, 3)), ('Queen collum 4, row 5 is moved to row 3 ', (1, 2, 2, 3, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (1, 2, 2, 3, 2)), ('Queen collum 4, row 3 is moved to row 2 ', (1, 2, 2, 2, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (1, 2, 2, 2, 1)), ('Queen collum 4, row 2 is moved to row 1 ', (1, 2, 2, 1, 1)), ('Queen collum 3, row 2 is moved to row 4 ', (1, 2, 4, 1, 1)), ('Queen collum 2, row 2 is moved to row 4 ', (1, 4, 4, 1, 1)), ('Queen collum 5, row 1 is moved to row 4 ', (1, 4, 4, 1, 4)), ('Queen collum 4, row 1 is 
+moved to row 2 ', (1, 4, 4, 2, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (1, 4, 4, 2, 2)), ('Queen collum 4, row 2 is moved to row 3 ', (1, 4, 4, 3, 2)), ('Queen collum 3, row 4 is moved to row 5 ', (1, 4, 5, 3, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (1, 4, 5, 3, 3)), ('Queen collum 3, row 5 is moved to row 3 ', (1, 4, 3, 3, 3)), ('Queen collum 5, row 3 is moved to row 1 ', (1, 4, 3, 3, 1)), ('Queen collum 4, row 3 is moved to row 5 ', (1, 4, 3, 5, 1)), ('Queen collum 3, row 3 is moved to row 2 ', (1, 4, 2, 5, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (1, 4, 2, 5, 5)), ('Queen collum 4, row 5 is moved 
+to row 2 ', (1, 4, 2, 2, 5)), ('Queen collum 2, row 4 is moved to row 1 ', (1, 1, 2, 2, 5)), ('Queen collum 4, row 2 is moved to row 1 ', (1, 1, 2, 1, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 1, 2, 1, 4)), ('Queen collum 4, row 1 is moved to row 5 ', (1, 1, 2, 5, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (1, 1, 2, 5, 2)), ('Queen collum 4, row 5 is moved to row 4 ', (1, 1, 2, 4, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (1, 1, 2, 4, 3)), ('Queen collum 3, row 2 is moved to row 3 ', (1, 1, 3, 4, 3)), ('Queen collum 5, row 3 is moved to row 1 ', (1, 1, 3, 4, 1)), ('Queen collum 4, row 4 is moved to row 2 ', (1, 1, 3, 2, 1)), ('Queen collum 5, row 1 is moved to row 2 ', (1, 1, 3, 2, 2)), ('Queen collum 4, row 2 is moved to row 3 ', (1, 1, 3, 3, 2)), ('Queen collum 5, row 2 is moved to row 5 ', (1, 1, 3, 3, 5)), ('Queen collum 3, row 3 is moved to row 4 ', (1, 1, 4, 3, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (1, 1, 4, 3, 4)), ('Queen collum 2, row 1 is moved to row 2 ', (1, 2, 4, 3, 4)), ('Queen collum 1, row 
+1 is moved to row 5 ', (5, 2, 4, 3, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (5, 2, 4, 3, 5)), ('Queen collum 4, row 3 is moved to row 5 ', (5, 2, 4, 5, 5)), ('Queen collum 5, row 5 is moved to row 1 ', 
+(5, 2, 4, 5, 1)), ('Queen collum 4, row 5 is moved to row 4 ', (5, 2, 4, 4, 1)), ('Queen collum 5, row 1 is moved to row 3 ', (5, 2, 4, 4, 3)), ('Queen collum 4, row 4 is moved to row 2 ', (5, 2, 4, 2, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (5, 2, 4, 2, 2)), ('Queen collum 4, row 2 is moved to row 1 ', (5, 2, 4, 1, 2)), ('Queen collum 3, row 4 is moved to row 5 ', (5, 2, 5, 1, 2)), ('Queen collum 5, row 2 is moved to row 5 ', (5, 2, 5, 1, 5)), ('Queen collum 4, row 1 is moved to row 4 ', (5, 2, 5, 4, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (5, 2, 5, 4, 4)), ('Queen collum 4, row 4 is moved to row 5 ', (5, 2, 5, 5, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (5, 2, 5, 5, 3)), ('Queen collum 4, row 5 is moved to row 3 ', (5, 2, 5, 3, 3)), ('Queen collum 5, row 3 is moved to row 1 ', (5, 2, 5, 3, 1)), ('Queen collum 4, row 3 is moved to row 2 ', (5, 2, 5, 2, 1)), ('Queen collum 3, row 5 is moved to row 3 ', (5, 2, 3, 2, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (5, 2, 3, 2, 5)), ('Queen collum 3, row 3 is moved to row 2 ', (5, 2, 2, 2, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (5, 2, 2, 2, 4)), ('Queen collum 4, row 2 is moved to row 1 ', (5, 2, 2, 1, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (5, 2, 2, 1, 3)), ('Queen collum 3, row 2 is moved to row 3 ', (5, 2, 3, 1, 3)), ('Queen collum 2, row 2 is moved to row 5 ', (5, 5, 3, 1, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (5, 5, 3, 1, 5)), ('Queen collum 4, row 1 is moved to row 5 ', (5, 5, 3, 5, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (5, 5, 3, 5, 4)), ('Queen collum 4, row 5 is moved to row 4 ', (5, 5, 3, 4, 4)), ('Queen collum 5, row 4 is moved to row 
+1 ', (5, 5, 3, 4, 1)), ('Queen collum 4, row 4 is moved to row 3 ', (5, 5, 3, 3, 1)), ('Queen collum 5, row 1 is moved to row 2 ', (5, 5, 3, 3, 2)), ('Queen collum 4, row 3 is moved to row 2 ', (5, 5, 3, 2, 2)), 
+('Queen collum 3, row 3 is moved to row 5 ', (5, 5, 5, 2, 2)), ('Queen collum 5, row 2 is moved to row 4 ', (5, 5, 5, 2, 4)), ('Queen collum 4, row 2 is moved to row 3 ', (5, 5, 5, 3, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (5, 5, 5, 3, 5)), ('Queen collum 2, row 5 is moved to row 4 ', (5, 4, 5, 3, 5)), ('Queen collum 4, row 3 is moved to row 5 ', (5, 4, 5, 5, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (5, 4, 5, 5, 2)), ('Queen collum 4, row 5 is moved to row 4 ', (5, 4, 5, 4, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (5, 4, 5, 4, 3)), ('Queen collum 4, row 4 is moved to row 2 ', (5, 4, 5, 2, 3)), ('Queen collum 3, row 5 is moved to row 3 ', (5, 4, 3, 2, 3)), ('Queen collum 5, row 3 is moved to row 4 ', (5, 4, 3, 2, 4)), ('Queen collum 4, row 2 is moved to row 3 ', (5, 4, 3, 3, 4)), ('Queen collum 3, row 3 is moved to row 2 ', (5, 4, 2, 3, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (5, 4, 2, 3, 3)), ('Queen collum 4, row 3 is moved to row 5 ', (5, 4, 2, 5, 3)), ('Queen collum 3, row 2 is moved to row 4 ', (5, 4, 
+4, 5, 3)), ('Queen collum 5, row 3 is moved to row 4 ', (5, 4, 4, 5, 4)), ('Queen collum 4, row 5 is moved to row 4 ', (5, 4, 4, 4, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (5, 4, 4, 4, 5)), ('Queen collum 4, row 4 is moved to row 2 ', (5, 4, 4, 2, 5)), ('Queen collum 5, row 5 is moved to row 1 ', (5, 4, 4, 2, 1)), ('Queen collum 4, row 2 is moved to row 3 ', (5, 4, 4, 3, 1)), ('Queen collum 3, row 4 is moved to row 1 ', (5, 4, 1, 3, 1)), ('Queen collum 5, row 1 is moved to row 2 ', (5, 4, 1, 3, 2)), ('Queen collum 4, row 3 is moved to row 2 ', (5, 4, 1, 2, 2)), ('Queen collum 3, row 1 is moved to row 2 ', (5, 4, 2, 2, 
+2)), ('Queen collum 4, row 2 is moved to row 1 ', (5, 4, 2, 1, 2)), ('Queen collum 5, row 2 is moved to row 5 ', (5, 4, 2, 1, 5)), ('Queen collum 3, row 2 is moved to row 1 ', (5, 4, 1, 1, 5)), ('Queen collum 5, 
+row 5 is moved to row 4 ', (5, 4, 1, 1, 4)), ('Queen collum 3, row 1 is moved to row 5 ', (5, 4, 5, 1, 4)), ('Queen collum 5, row 4 is moved to row 1 ', (5, 4, 5, 1, 1)), ('Queen collum 3, row 5 is moved to row 3 ', (5, 4, 3, 1, 1)), ('Queen collum 2, row 4 is moved to row 3 ', (5, 3, 3, 1, 1)), ('Queen collum 5, row 1 is moved to row 2 ', (5, 3, 3, 1, 2)), ('Queen collum 4, row 1 is moved to row 5 ', (5, 3, 3, 5, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (5, 3, 3, 5, 3)), ('Queen collum 4, row 5 is moved to row 4 ', (5, 3, 3, 4, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (5, 3, 3, 4, 5)), ('Queen collum 4, row 4 
+is moved to row 3 ', (5, 3, 3, 3, 5)), ('Queen collum 3, row 3 is moved to row 2 ', (5, 3, 2, 3, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (5, 3, 2, 3, 2)), ('Queen collum 4, row 3 is moved to row 4 ', (5, 3, 2, 4, 2)), ('Queen collum 5, row 2 is moved to row 4 ', (5, 3, 2, 4, 4)), ('Queen collum 4, row 4 is moved to row 5 ', (5, 3, 2, 5, 4)), ('Queen collum 5, row 4 is moved to row 1 ', (5, 3, 2, 5, 1)), ('Queen collum 4, row 5 is moved to row 2 ', (5, 3, 2, 2, 1)), ('Queen collum 5, row 1 is moved to row 3 ', (5, 3, 2, 2, 3)), ('Queen collum 3, row 2 is moved to row 1 ', (5, 3, 1, 2, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (5, 3, 1, 2, 5)), ('Queen collum 3, row 1 is moved to row 5 ', (5, 3, 5, 2, 5)), ('Queen collum 2, row 3 is moved to row 1 ', (5, 1, 5, 2, 5)), ('Queen collum 1, row 5 is moved to row 4 ', (4, 1, 5, 2, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (4, 1, 5, 2, 4)), ('Queen collum 4, row 2 is moved to row 5 ', (4, 1, 5, 5, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (4, 1, 5, 5, 3)), ('Queen collum 4, row 5 is moved to row 4 ', (4, 1, 5, 4, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (4, 1, 5, 4, 2)), ('Queen collum 4, row 4 is moved to row 3 ', (4, 1, 5, 3, 2)), ('Queen collum 5, row 2 is moved to 
+row 1 ', (4, 1, 5, 3, 1)), ('Queen collum 4, row 3 is moved to row 1 ', (4, 1, 5, 1, 1)), ('Queen collum 3, row 5 is moved to row 4 ', (4, 1, 4, 1, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (4, 1, 4, 1, 5)), ('Queen collum 4, row 1 is moved to row 5 ', (4, 1, 4, 5, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (4, 1, 4, 5, 2)), ('Queen collum 4, row 5 is moved to row 2 ', (4, 1, 4, 2, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (4, 1, 4, 2, 3)), ('Queen collum 4, row 2 is moved to row 3 ', (4, 1, 4, 3, 3)), ('Queen collum 3, row 4 is moved to row 3 ', (4, 1, 3, 3, 3)), ('Queen collum 5, row 3 is moved to row 4 
+', (4, 1, 3, 3, 4)), ('Queen collum 4, row 3 is moved to row 4 ', (4, 1, 3, 4, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (4, 1, 3, 4, 5)), ('Queen collum 3, row 3 is moved to row 2 ', (4, 1, 2, 4, 5)), ('Queen collum 5, row 5 is moved to row 1 ', (4, 1, 2, 4, 1)), ('Queen collum 4, row 4 is moved to row 5 ', (4, 1, 2, 5, 1)), ('Queen collum 3, row 2 is moved to row 3 ', (4, 1, 3, 5, 1)), ('Queen collum 2, row 1 is moved to row 5 ', (4, 5, 3, 5, 1)), ('Queen collum 4, row 5 is moved to row 2 ', (4, 5, 3, 2, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (4, 5, 3, 2, 5)), ('Queen collum 4, row 2 is moved to row 3 ', (4, 5, 3, 3, 5)), ('Queen collum 3, row 3 is moved to row 4 ', (4, 5, 4, 3, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (4, 5, 4, 3, 4)), ('Queen collum 4, row 3 is moved to row 2 ', (4, 5, 4, 2, 4)), ('Queen 
+collum 3, row 4 is moved to row 1 ', (4, 5, 1, 2, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (4, 5, 1, 2, 3)), ('Queen collum 4, row 2 is moved to row 5 ', (4, 5, 1, 5, 3)), ('Queen collum 5, row 3 is moved to row 5 ', (4, 5, 1, 5, 5)), ('Queen collum 4, row 5 is moved to row 4 ', (4, 5, 1, 4, 5)), ('Queen collum 5, row 5 is moved to row 2 ', (4, 5, 1, 4, 2)), ('Queen collum 4, row 4 is moved to row 3 ', (4, 5, 1, 3, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (4, 5, 1, 3, 1)), ('Queen collum 4, row 3 is moved to row 1 ', (4, 5, 1, 1, 1)), ('Queen collum 3, row 1 is moved to row 2 ', (4, 5, 2, 1, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (4, 5, 2, 1, 5)), ('Queen collum 3, row 2 is moved to row 5 ', (4, 5, 5, 1, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (4, 5, 5, 1, 4)), ('Queen collum 4, row 1 is moved to row 4 ', (4, 5, 5, 4, 4)), ('Queen collum 5, row 4 is moved to row 1 ', (4, 5, 5, 4, 1)), ('Queen collum 3, row 5 is moved to row 4 ', (4, 5, 4, 4, 1)), ('Queen collum 2, row 5 is moved to row 4 ', (4, 4, 4, 4, 1)), ('Queen collum 5, row 1 is moved to row 3 ', (4, 4, 4, 4, 3)), ('Queen collum 4, row 4 is moved to row 1 ', (4, 4, 4, 1, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (4, 4, 4, 1, 2)), ('Queen collum 3, row 4 is moved to row 5 ', (4, 4, 5, 1, 2)), ('Queen collum 4, row 1 is moved to row 2 ', (4, 4, 5, 2, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (4, 4, 5, 2, 1)), ('Queen collum 4, row 2 is moved to row 5 ', (4, 4, 5, 5, 1)), ('Queen collum 3, row 5 is moved to row 1 ', (4, 4, 1, 5, 1)), ('Queen collum 5, row 1 is moved to row 4 ', (4, 4, 1, 5, 4)), ('Queen collum 3, row 1 is moved to row 3 ', (4, 4, 3, 5, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (4, 4, 3, 5, 5)), ('Queen collum 4, row 5 is moved to row 1 ', (4, 4, 3, 1, 5)), ('Queen collum 2, row 4 is moved to row 3 ', (4, 3, 3, 1, 5)), ('Queen collum 3, row 3 is moved to row 1 ', (4, 3, 1, 1, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (4, 3, 1, 1, 4)), ('Queen collum 4, row 1 is moved to row 4 ', (4, 3, 1, 4, 4)), ('Queen collum 5, row 4 is moved to row 1 ', (4, 
+3, 1, 4, 1)), ('Queen collum 3, row 1 is moved to row 3 ', (4, 3, 3, 4, 1)), ('Queen collum 5, row 1 is moved to row 2 ', (4, 3, 3, 4, 2)), ('Queen collum 4, row 4 is moved to row 3 ', (4, 3, 3, 3, 2)), ('Queen collum 3, row 3 is moved to row 4 ', (4, 3, 4, 3, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (4, 3, 4, 3, 1)), ('Queen collum 4, row 3 is moved to row 5 ', (4, 3, 4, 5, 1)), ('Queen collum 5, row 1 is moved to row 4 ', (4, 3, 4, 5, 4)), ('Queen collum 2, row 3 is moved to row 2 ', (4, 2, 4, 5, 4)), ('Queen collum 4, row 5 is moved to row 4 ', (4, 2, 4, 4, 4)), ('Queen collum 1, row 4 is moved to row 3 ', (3, 2, 4, 
+4, 4)), ('Queen collum 4, row 4 is moved to row 2 ', (3, 2, 4, 2, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (3, 2, 4, 2, 5)), ('Queen collum 4, row 2 is moved to row 1 ', (3, 2, 4, 1, 5)), ('Queen collum 
+5, row 5 is moved to row 3 ', (3, 2, 4, 1, 3)), ('Queen collum 4, row 1 is moved to row 3 ', (3, 2, 4, 3, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (3, 2, 4, 3, 2)), ('Queen collum 3, row 4 is moved to row 5 ', (3, 2, 5, 3, 2)), ('Queen collum 5, row 2 is moved to row 5 ', (3, 2, 5, 3, 5)), ('Queen collum 3, row 5 is moved to row 3 ', (3, 2, 3, 3, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (3, 2, 3, 3, 4)), ('Queen collum 4, row 3 is moved to row 1 ', (3, 2, 3, 1, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (3, 2, 3, 1, 2)), ('Queen collum 4, row 1 is moved to row 5 ', (3, 2, 3, 5, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (3, 2, 3, 5, 3)), ('Queen collum 4, row 5 is moved to row 4 ', (3, 2, 3, 4, 3)), ('Queen collum 5, row 3 is moved to row 1 ', (3, 2, 3, 4, 1)), ('Queen collum 3, row 3 is moved to row 2 ', (3, 2, 2, 4, 1)), ('Queen collum 5, row 1 is moved to row 2 ', (3, 2, 2, 4, 2)), ('Queen collum 3, row 2 is moved to row 1 ', (3, 2, 1, 4, 2)), ('Queen collum 5, row 2 is moved to row 5 ', (3, 2, 1, 4, 5)), ('Queen collum 4, row 4 is moved to row 5 ', (3, 2, 1, 5, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (3, 2, 1, 5, 4)), ('Queen collum 3, row 1 is moved to row 2 ', (3, 2, 2, 5, 4)), ('Queen collum 2, row 2 is 
+moved to row 5 ', (3, 5, 2, 5, 4)), ('Queen collum 5, row 4 is moved to row 5 ', (3, 5, 2, 5, 5)), ('Queen collum 4, row 5 is moved to row 4 ', (3, 5, 2, 4, 5)), ('Queen collum 5, row 5 is moved to row 3 ', (3, 5, 2, 4, 3)), ('Queen collum 4, row 4 is moved to row 3 ', (3, 5, 2, 3, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (3, 5, 2, 3, 2)), ('Queen collum 4, row 3 is moved to row 2 ', (3, 5, 2, 2, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (3, 5, 2, 2, 1)), ('Queen collum 3, row 2 is moved to row 1 ', (3, 5, 1, 2, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (3, 5, 1, 2, 5)), ('Queen collum 4, row 2 is moved 
+to row 1 ', (3, 5, 1, 1, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (3, 5, 1, 1, 4)), ('Queen collum 4, row 1 is moved to row 4 ', (3, 5, 1, 4, 4)), ('Queen collum 2, row 5 is moved to row 1 ', (3, 1, 1, 4, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (3, 1, 1, 4, 3)), ('Queen collum 4, row 4 is moved to row 5 ', (3, 1, 1, 5, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (3, 1, 1, 5, 2)), ('Queen collum 4, row 5 is moved to row 3 ', (3, 1, 1, 3, 2)), ('Queen collum 5, row 2 is moved to row 5 ', (3, 1, 1, 3, 5)), ('Queen collum 3, row 1 is moved to row 2 ', (3, 1, 2, 3, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (3, 1, 2, 3, 4)), ('Queen collum 4, row 3 is moved to row 2 ', (3, 1, 2, 2, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (3, 1, 2, 2, 3)), ('Queen collum 4, row 2 is moved to row 1 ', (3, 1, 2, 1, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (3, 1, 2, 1, 2)), ('Queen collum 3, row 2 is moved to row 5 ', (3, 1, 5, 1, 2)), ('Queen collum 5, row 2 is moved to row 5 ', (3, 1, 5, 1, 5)), ('Queen collum 4, row 
+1 is moved to row 5 ', (3, 1, 5, 5, 5)), ('Queen collum 5, row 5 is moved to row 1 ', (3, 1, 5, 5, 1)), ('Queen collum 4, row 5 is moved to row 4 ', (3, 1, 5, 4, 1)), ('Queen collum 3, row 5 is moved to row 4 ', 
+(3, 1, 4, 4, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (3, 1, 4, 4, 5)), ('Queen collum 2, row 1 is moved to row 3 ', (3, 3, 4, 4, 5)), ('Queen collum 5, row 5 is moved to row 3 ', (3, 3, 4, 4, 3)), ('Queen collum 4, row 4 is moved to row 5 ', (3, 3, 4, 5, 3)), ('Queen collum 5, row 3 is moved to row 2 ', (3, 3, 4, 5, 2)), ('Queen collum 4, row 5 is moved to row 2 ', (3, 3, 4, 2, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (3, 3, 4, 2, 1)), ('Queen collum 4, row 2 is moved to row 1 ', (3, 3, 4, 1, 1)), ('Queen collum 5, row 1 is moved to row 4 ', (3, 3, 4, 1, 4)), ('Queen collum 4, row 1 is moved to row 3 ', (3, 3, 4, 3, 4)), ('Queen collum 3, row 4 is moved to row 1 ', (3, 3, 1, 3, 4)), ('Queen collum 5, row 4 is moved to row 1 ', (3, 3, 1, 3, 1)), ('Queen collum 4, row 3 is moved to row 5 ', (3, 3, 1, 5, 1)), ('Queen collum 3, row 1 is moved to row 3 ', (3, 3, 3, 5, 1)), ('Queen collum 5, row 1 is moved to row 5 ', (3, 3, 3, 5, 5)), ('Queen collum 1, row 3 is moved to row 2 ', (2, 3, 3, 5, 5)), ('Queen collum 5, row 5 is moved to row 4 ', (2, 3, 3, 5, 4)), ('Queen collum 4, row 5 is moved to row 4 ', (2, 3, 3, 4, 4)), ('Queen collum 3, row 3 is moved to row 4 ', (2, 3, 4, 4, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (2, 3, 4, 4, 2)), ('Queen collum 3, row 4 is moved to row 1 ', (2, 3, 1, 4, 2)), ('Queen collum 4, row 4 is moved to row 5 ', (2, 3, 1, 5, 2)), ('Queen collum 5, row 2 is moved to row 3 ', (2, 3, 1, 5, 3)), ('Queen collum 4, row 5 is moved to row 1 ', (2, 3, 1, 1, 3)), ('Queen collum 3, row 1 is moved to row 5 ', (2, 3, 5, 1, 3)), ('Queen collum 5, row 3 is moved to row 4 ', (2, 3, 5, 1, 4)), ('Queen collum 4, row 1 is moved to row 
+2 ', (2, 3, 5, 2, 4)), ('Queen collum 5, row 4 is moved to row 2 ', (2, 3, 5, 2, 2)), ('Queen collum 4, row 2 is moved to row 3 ', (2, 3, 5, 3, 2)), ('Queen collum 5, row 2 is moved to row 1 ', (2, 3, 5, 3, 1)), 
+('Queen collum 4, row 3 is moved to row 5 ', (2, 3, 5, 5, 1)), ('Queen collum 2, row 3 is moved to row 5 ', (2, 5, 5, 5, 1)), ('Queen collum 5, row 1 is moved to row 4 ', (2, 5, 5, 5, 4)), ('Queen collum 3, row 5 is moved to row 1 ', (2, 5, 1, 5, 4)), ('Queen collum 4, row 5 is moved to row 3 ', (2, 5, 1, 3, 4)), ('Queen collum 5, row 4 is moved to row 3 ', (2, 5, 1, 3, 3)), ('Queen collum 4, row 3 is moved to row 4 ', (2, 5, 1, 4, 3)), ('Queen collum 5, row 3 is moved to row 1 ', (2, 5, 1, 4, 1)), ('Queen collum 3, row 1 is moved to row 2 ', (2, 5, 2, 4, 1)), ('Queen collum 5, row 1 is moved to row 4 ', (2, 5, 2, 4, 4)), ('Queen collum 4, row 4 is moved to row 1 ', (2, 5, 2, 1, 4)), ('Queen collum 3, row 2 is moved to row 3 ', (2, 5, 3, 1, 4))]
+            Cost: 368
+            Stats: {'max_fringe_size': 2561, 'visited_nodes': 2811, 'iterations': 2824}
+            Execution Time: 2.150s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function astar at 0x000002CC49CE5A80>
+            Initial state: [1, 3, 1, 5, 4]
+            Fİnal State: (1, 3, 5, 2, 4)
+            Path: [(None, (1, 3, 1, 5, 4)), ('Queen collum 4, row 5 is moved to row 2 ', (1, 3, 1, 2, 4)), ('Queen collum 3, row 1 is moved to row 5 ', (1, 3, 5, 2, 4))]
+            Cost: 2
+            Stats: {'max_fringe_size': 2561, 'visited_nodes': 2814, 'iterations': 2827}
+            Execution Time: 0.001s
+
+-----------------------------------------------
+
+            Function: <function genetic at 0x000002CC49CE63E0>
+            Initial state: [1, 3, 1, 5, 4]
+            Fİnal State: [4, 2, 3, 5, 3]
+            Path: [('crossover', [4, 2, 3, 5, 3])]
+            Cost: 0
+            Stats: {'max_fringe_size': 2561, 'visited_nodes': 2814, 'iterations': 2827}
+            Execution Time: 0.003s
+
+-----------------------------------------------
+
+            Function: <function hill_climbing at 0x000002CC49CE5EE0>
+            Initial state: [1, 3, 1, 5, 4]
+            Fİnal State: (1, 4, 2, 5, 2)
+            Path: [('Queen collum 3, row 1 is moved to row 2 ', (1, 4, 2, 5, 2))]
+            Cost: 3
+            Stats: {'max_fringe_size': 2561, 'visited_nodes': 2814, 'iterations': 2830}
+            Execution Time: 0.001s
+
+-----------------------------------------------
+Goal Node
+
+            Function: <function greedy at 0x000002CC49CE59E0>
+            Initial state: [1, 3, 1, 5, 4]
+            Fİnal State: (1, 3, 5, 2, 4)
+            Path: [(None, (1, 3, 1, 5, 4)), ('Queen collum 4, row 5 is moved to row 2 ', (1, 3, 1, 2, 4)), ('Queen collum 3, row 1 is moved to row 5 ', (1, 3, 5, 2, 4))]
+            Cost: 2
+            Stats: {'max_fringe_size': 2561, 'visited_nodes': 2817, 'iterations': 2833}
+            Execution Time: 0.001s
